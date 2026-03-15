@@ -253,9 +253,10 @@ class DatagouvMock:
     def mock_get_upcoming_universe_perimeter_topic(
         self, id: str, object_class: type[TopicObject]
     ) -> None:
+        version = "2" if object_class is Dataset else "1"
         objects = self._leaf_objects_of(id, object_class=object_class)
         _ = self.responses.get(
-            url=f"{self.config.datagouv.url}/api/2/{object_class.namespace()}/",
+            url=f"{self.config.datagouv.url}/api/{version}/{object_class.namespace()}/",
             match=[
                 header_matcher(
                     {

@@ -221,7 +221,8 @@ class DatagouvApi:
     def get_topic_objects[T: TopicObject](
         self, topic_id: str, object_class: type[T]
     ) -> Sequence[T]:
-        url = f"{self.base_url}/api/2/{object_class.namespace()}/"
+        version = "2" if object_class is Dataset else "1"
+        url = f"{self.base_url}/api/{version}/{object_class.namespace()}/"
         params = {"topic": topic_id}
         objs = self._get_objects(url, params=params, fields=["id", "organization{id,name,slug}"])
         return [dacite.from_dict(object_class, o) for o in objs]
