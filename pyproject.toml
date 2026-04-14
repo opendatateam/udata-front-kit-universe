@@ -18,7 +18,7 @@ universe = "universe.__main__:main"
 [dependency-groups]
 dev = [
     "pre-commit",
-    "pytest >= 9",
+    "pytest>=9.0.3",
     "pytest-responses >= 0.5.1",
     "ruff",
 ]
