@@ -1,0 +1,11 @@
+# WARNING: overload tokens with envvars or a separate config file to avoid leaking secrets
+topic: univers-accessibilite
+tag: accessibilite-univers
+datagouv:
+  url: https://www.data.gouv.fr
+  token: CONFIGURE_ME
+grist:
+  url: https://grist.numerique.gouv.fr/o/pauda/api/docs/ui9upV2GSCwP8JgnrCynJs
+  table: Prod
+  token: CONFIGURE_ME
+output_dir: dist/accessibilite-prod

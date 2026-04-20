@@ -3,11 +3,10 @@ name: Update universes
 on:
   schedule:
     # this should run right after most of harvesting is finished on data.gouv.fr
-    - cron: '4 5 * * *'
+    - cron: "4 5 * * *"
   workflow_dispatch:
 
 jobs:
-
   run-update:
     runs-on: ubuntu-latest
     concurrency:
@@ -24,6 +23,8 @@ jobs:
           - culture-prod
           - ecospheres-demo
           - ecospheres-prod
+          - accessibilite-demo
+          - accessibilite-prod
     environment: ${{ matrix.universe }}
     env:
       ARTIFACTS_BRANCH: artifacts
