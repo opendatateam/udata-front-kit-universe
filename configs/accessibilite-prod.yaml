@@ -2,10 +2,10 @@
 topic: univers-accessibilite
 tag: accessibilite-univers
 datagouv:
-  url: https://demo.data.gouv.fr
+  url: https://www.data.gouv.fr
   token: CONFIGURE_ME
 grist:
   url: https://grist.numerique.gouv.fr/o/pauda/api/docs/ui9upV2GSCwP8JgnrCynJs
-  table: Demo
+  table: Prod
   token: CONFIGURE_ME
-output_dir: dist/accessibilite-demo
+output_dir: dist/accessibilite-prod
