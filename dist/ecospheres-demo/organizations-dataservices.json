@@ -6,15 +6,15 @@
     "type": ""
   },
   {
-    "id": "5901f4dfc751df412e7bb92d",
-    "name": "Agence nationale de la cohésion des territoires",
-    "slug": "agence-nationale-de-la-cohesion-des-territoires",
+    "id": "62da6837cde1491f3727cdb2",
+    "name": "Agence Nationale de l'Habitat",
+    "slug": "agence-nationale-de-lhabitat",
     "type": ""
   },
   {
-    "id": "5b1138d9c751df2618dc4662",
-    "name": "Agence ORE",
-    "slug": "agence-ore-3",
+    "id": "5901f4dfc751df412e7bb92d",
+    "name": "Agence nationale de la cohésion des territoires",
+    "slug": "agence-nationale-de-la-cohesion-des-territoires",
     "type": ""
   },
   {
@@ -24,16 +24,16 @@
     "type": ""
   },
   {
+    "id": "61dc6a1398b3376b6fa0d0d9",
+    "name": "Centre Scientifique et Technique du Batiment",
+    "slug": "centre-scientifique-et-technique-du-batiment",
+    "type": ""
+  },
+  {
     "id": "5c812a16634f416583ed1876",
     "name": "Cerema",
     "slug": "cerema",
     "type": ""
-  },
-  {
-    "id": "5882a05d88ee3835c59b81a4",
-    "name": "DREAL Auvergne-Rhône-Alpes",
-    "slug": "dreal-auvergne-rhone-alpes-1",
-    "type": "DREAL, DRIEAT"
   },
   {
     "id": "67884b4da4fca9c97bbef479",
@@ -54,12 +54,6 @@
     "type": ""
   },
   {
-    "id": "560d929ac751df40ef756894",
-    "name": "Enedis",
-    "slug": "electricite-reseau-distribution-france",
-    "type": ""
-  },
-  {
     "id": "571e4595c751df54b2fcca0d",
     "name": "GRDF",
     "slug": "grdf",
@@ -72,9 +66,21 @@
     "type": ""
   },
   {
+    "id": "54f461f8c751df0f88882844",
+    "name": "Institut français de recherche pour l'exploitation de la mer (IFREMER)",
+    "slug": "institut-francais-de-recherche-pour-lexploitation-de-la-mer",
+    "type": ""
+  },
+  {
     "id": "534fff80a3a7292c64a77e41",
     "name": "Institut national de l'information géographique et forestière",
     "slug": "institut-national-de-linformation-geographique-et-forestiere",
+    "type": ""
+  },
+  {
+    "id": "5be949a9634f415deb46af0e",
+    "name": "Lig'Air",
+    "slug": "ligair",
     "type": ""
   },
   {
@@ -90,12 +96,6 @@
     "type": ""
   },
   {
-    "id": "551d4b6cc751df4f1a0cd89f",
-    "name": "Morbihan énergies",
-    "slug": "morbihan-energies",
-    "type": ""
-  },
-  {
     "id": "5a0f0384c751df5f68d855b9",
     "name": "Open Data Réseaux Énergies",
     "slug": "open-data-reseaux-energies-1",
@@ -108,6 +108,12 @@
     "type": ""
   },
   {
+    "id": "534fffafa3a7292c64a78103",
+    "name": "Shom",
+    "slug": "shom",
+    "type": ""
+  },
+  {
     "id": "534fffb0a3a7292c64a78115",
     "name": "SNCF",
     "slug": "sncf",
@@ -117,12 +123,6 @@
     "id": "534fffb2a3a7292c64a78123",
     "name": "Système d'Information sur l'Eau",
     "slug": "systeme-d-information-sur-l-eau",
-    "type": ""
-  },
-  {
-    "id": "683488ce49c7526820da233d",
-    "name": "Test GeoLittoral",
-    "slug": "test-geolittoral",
     "type": ""
   }
 ]

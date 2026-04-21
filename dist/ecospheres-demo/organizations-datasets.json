@@ -156,6 +156,12 @@
     "type": "DDT(M), DTAM, DEAL"
   },
   {
+    "id": "558e9c3ec751df75fea453c7",
+    "name": "DDT de la Marne (DDT51)",
+    "slug": "ddt-de-la-marne-ddt51",
+    "type": "DDT(M), DTAM, DEAL"
+  },
+  {
     "id": "5883d3d088ee38061b9b81a9",
     "name": "DDT de la Moselle",
     "slug": "ddt-de-la-moselle",
@@ -468,12 +474,6 @@
     "type": "DDT(M), DTAM, DEAL"
   },
   {
-    "id": "558e9c3ec751df75fea453c7",
-    "name": "Direction Départementale des Territoires de la Marne (DDT51)",
-    "slug": "direction-departementale-des-territoires-de-la-marne-ddt51",
-    "type": "DDT(M), DTAM, DEAL"
-  },
-  {
     "id": "558e9e4ac751df2a26a453da",
     "name": "Direction Départementale des Territoires de la Sarthe",
     "slug": "direction-departementale-des-territoires-de-la-sarthe",
@@ -513,12 +513,6 @@
     "id": "558dc1c0c751df341aa453b9",
     "name": "Direction Départementale des Territoires des Alpes-de-Haute-Provence",
     "slug": "direction-departementale-des-territoires-des-alpes-de-haute-provence",
-    "type": "DDT(M), DTAM, DEAL"
-  },
-  {
-    "id": "5ac5cb0388ee38796b3a476b",
-    "name": "Direction Départementale des Territoires des Hautes-Alpes",
-    "slug": "direction-departementale-des-territoires-des-hautes-alpes",
     "type": "DDT(M), DTAM, DEAL"
   },
   {
@@ -594,12 +588,6 @@
     "type": "DDT(M), DTAM, DEAL"
   },
   {
-    "id": "5acdd6e3c751df7b71dfb42b",
-    "name": "Direction Départementale des Territoires et de la Mer de l'Hérault",
-    "slug": "direction-departementale-des-territoires-et-de-la-mer-de-lherault",
-    "type": "DDT(M), DTAM, DEAL"
-  },
-  {
     "id": "558a83dac751df039da453b9",
     "name": "Direction Départementale des Territoires et de la Mer de la Somme",
     "slug": "direction-departementale-des-territoires-et-de-la-mer-de-la-somme",
@@ -648,12 +636,6 @@
     "type": "DDT(M), DTAM, DEAL"
   },
   {
-    "id": "67a352054456182679d0b19b",
-    "name": "Direction régionale de  l'environnement, de l'aménagement et du logement de Bretagne",
-    "slug": "direction-regionale-de-lenvironnement-de-lamenagement-et-du-logement-de-bretagne-1",
-    "type": "DREAL, DRIEAT"
-  },
-  {
     "id": "57275bd288ee387fd5a19f12",
     "name": "Direction régionale de l'Environnement, de l'Aménagement et du Logement de Normandie",
     "slug": "direction-regionale-de-lenvironnement-de-lamenagement-et-du-logement-de-normandie",
@@ -664,18 +646,6 @@
     "name": "Direction régionale et interdépartementale de l’environnement, de l’aménagement et des transports d'Île-de-France",
     "slug": "direction-regionale-et-interdepartementale-de-lenvironnement-de-lamenagement-et-des-transports-dile-de-france",
     "type": "DREAL, DRIEAT"
-  },
-  {
-    "id": "68221b9ed5f653ba1129729a",
-    "name": "Direction Territoriale de l'Alimentation et de la Mer",
-    "slug": "direction-territoriale-de-lalimentation-et-de-la-mer",
-    "type": ""
-  },
-  {
-    "id": "5a83f81fc751df6f8573eb8a",
-    "name": "Do.TeRR . Géo-Centre",
-    "slug": "do-terr-geo-centre",
-    "type": ""
   },
   {
     "id": "5882a05d88ee3835c59b81a4",
@@ -1026,9 +996,9 @@
     "type": ""
   },
   {
-    "id": "683488ce49c7526820da233d",
-    "name": "Test GeoLittoral",
-    "slug": "test-geolittoral",
+    "id": "67c5ea43c8e7b1f1830d4739",
+    "name": "Tableau de bord des mobilités durables",
+    "slug": "tableau-de-bord-des-mobilites-durables",
     "type": ""
   }
 ]
