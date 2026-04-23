@@ -202,7 +202,7 @@ class DatagouvApi:
         r.raise_for_status()
         return r.json()["id"]
 
-@elapsed_and_count
+    @elapsed_and_count
     def get_topic_elements(
         self, topic_id_or_slug: str, object_class: type[TopicObject]
     ) -> Sequence[TopicElement]:
