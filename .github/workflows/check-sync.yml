@@ -1,0 +1,36 @@
+name: Check sync
+
+on:
+  workflow_dispatch:
+    inputs:
+      universe:
+        description: Universe config to check
+        required: true
+        type: choice
+        options:
+          - culture-prod
+          - ecospheres-demo
+          - ecospheres-prod
+          - accessibilite-demo
+          - accessibilite-prod
+
+jobs:
+  check-sync:
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.universe }}
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Check sync for ${{ inputs.universe }}
+        env:
+          PYTHONUNBUFFERED: 1
+        run: uv run universe check-sync configs/${{ inputs.universe }}.yaml
