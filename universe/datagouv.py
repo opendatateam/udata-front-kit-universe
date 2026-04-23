@@ -202,13 +202,6 @@ class DatagouvApi:
         r.raise_for_status()
         return r.json()["id"]
 
-    def get_topic_datasets_count(self, topic_id: str, org_id: str, use_search: bool = False) -> int:
-        url = f"{self.base_url}/api/2/datasets{'/search' if use_search else ''}/"
-        params = {"topic": topic_id, "organization": org_id, "page_size": 1}
-        r = session.get(url, params=params)
-        r.raise_for_status()
-        return int(r.json()["total"])
-
     @elapsed_and_count
     def get_topic_elements(
         self, topic_id_or_slug: str, object_class: type[TopicObject]
@@ -219,10 +212,13 @@ class DatagouvApi:
         return [TopicElement(id=o["id"], object=object_class(o["element"]["id"])) for o in objs]
 
     def get_topic_objects[T: TopicObject](
-        self, topic_id: str, object_class: type[T]
+        self, topic_id: str, object_class: type[T], use_search: bool = False
     ) -> Sequence[T]:
-        version = "2" if object_class is Dataset else "1"
-        url = f"{self.base_url}/api/{version}/{object_class.namespace()}/"
+        if use_search:
+            url = f"{self.base_url}/api/2/{object_class.namespace()}/search/"
+        else:
+            version = "2" if object_class is Dataset else "1"
+            url = f"{self.base_url}/api/{version}/{object_class.namespace()}/"
         params = {"topic": topic_id}
         objs = self._get_objects(url, params=params, fields=["id", "organization{id,name,slug}"])
         return [dacite.from_dict(object_class, o) for o in objs]
