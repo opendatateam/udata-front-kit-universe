@@ -1,6 +1,6 @@
 # WARNING: overload tokens with envvars or a separate config file to avoid leaking secrets
 topic: univers-ecospheres
-tag: ecospheres
+tag: univers-ecospheres
 datagouv:
   url: https://demo.data.gouv.fr
   token: CONFIGURE_ME
