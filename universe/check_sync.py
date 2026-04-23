@@ -1,4 +1,3 @@
-import os
 import sys
 
 from pathlib import Path
@@ -6,8 +5,7 @@ from pathlib import Path
 from minicli import cli, run
 
 from universe.config import Config
-from universe.datagouv import DatagouvApi, Organization
-from universe.grist import GristApi
+from universe.datagouv import DatagouvApi, Topic
 
 
 @cli
@@ -28,35 +26,28 @@ def check_sync(universe: Path, *extra_configs: Path):
         dry_run=True,
     )
 
-    grist = GristApi(
-        base_url=conf.grist.url,
-        table=conf.grist.table,
-        token=os.getenv("GRIST_API_KEY", conf.grist.token),
-    )
-
     topic_id = datagouv.get_topic_id(conf.topic)
 
-    orgs = set[Organization]()
-    grist_orgs = [e for e in grist.get_entries() if e.object_class is Organization]
-    for grist_org in grist_orgs:
-        org = datagouv.get_organization(grist_org.identifier)
-        if not org:
-            print(f"Unknown organization {grist_org.identifier}", file=sys.stderr)
-            continue
-        orgs.add(org)
-
     nb_errors = 0
-    for org in sorted(orgs):
-        datasets_wo_es = datagouv.get_topic_datasets_count(topic_id, org.id, use_search=False)
-        datasets_w_es = datagouv.get_topic_datasets_count(topic_id, org.id, use_search=True)
-        if datasets_w_es == datasets_wo_es:
-            print(f"✅ ({datasets_w_es}) — {org.name}")
+    for object_class in Topic.object_classes():
+        mongo_ids = {o.id for o in datagouv.get_topic_objects(topic_id, object_class, use_search=False)}
+        es_ids = {o.id for o in datagouv.get_topic_objects(topic_id, object_class, use_search=True)}
+
+        missing_from_es = mongo_ids - es_ids
+        stale_in_es = es_ids - mongo_ids
+
+        if not missing_from_es and not stale_in_es:
+            print(f"✅ {object_class.__name__}: {len(mongo_ids)}")
         else:
             nb_errors += 1
-            print(f"❌ ({datasets_w_es} / {datasets_wo_es}) — {org.name}", file=sys.stderr)
+            print(f"❌ {object_class.__name__}: Mongo={len(mongo_ids)} / ES={len(es_ids)}", file=sys.stderr)
+            for id in missing_from_es:
+                print(f"  missing from ES: {id}", file=sys.stderr)
+            for id in stale_in_es:
+                print(f"  stale in ES:     {id}", file=sys.stderr)
 
     if nb_errors:
-        print(f"\n{nb_errors} organizations are NOT in sync.", file=sys.stderr)
+        print(f"\n{nb_errors} object type(s) are NOT in sync.", file=sys.stderr)
         sys.exit(1)
 
 
