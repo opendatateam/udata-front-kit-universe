@@ -32,7 +32,5 @@ jobs:
 
       - name: Check sync for ${{ inputs.universe }}
         env:
-          DATAGOUV_API_KEY: ${{ secrets.DATAGOUV_API_KEY  }}
-          GRIST_API_KEY: ${{ secrets.GRIST_API_KEY }}
           PYTHONUNBUFFERED: 1
         run: uv run universe check-sync configs/${{ inputs.universe }}.yaml
