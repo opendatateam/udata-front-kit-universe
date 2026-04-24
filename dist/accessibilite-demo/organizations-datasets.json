@@ -1,8 +1,32 @@
 [
   {
+    "id": "534fff85a3a7292c64a77e9c",
+    "name": "La Poste",
+    "slug": "la-poste",
+    "type": null
+  },
+  {
+    "id": "5821930b88ee386862c65bb3",
+    "name": "La Rochelle",
+    "slug": "la-rochelle",
+    "type": null
+  },
+  {
     "id": "534fff94a3a7292c64a77fc1",
     "name": "Ministère des Solidarités et de la Santé",
     "slug": "ministere-des-solidarites-et-de-la-sante",
+    "type": null
+  },
+  {
+    "id": "56f54580c751df65ebc485cb",
+    "name": "Saemes ",
+    "slug": "saemes",
+    "type": null
+  },
+  {
+    "id": "534fffb0a3a7292c64a78115",
+    "name": "SNCF",
+    "slug": "sncf",
     "type": null
   }
 ]
