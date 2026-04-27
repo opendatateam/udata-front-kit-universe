@@ -930,6 +930,12 @@
     "type": "Administration centrale"
   },
   {
+    "id": "534fff94a3a7292c64a77fc1",
+    "name": "Ministère des Solidarités et de la Santé",
+    "slug": "ministere-des-solidarites-et-de-la-sante",
+    "type": null
+  },
+  {
     "id": "646f625d5a9f3eb11b7ae7b7",
     "name": "Mon diagnostic artificialisation",
     "slug": "mon-diagnostic-artificialisation",
