@@ -208,7 +208,7 @@ class DatagouvApi:
     ) -> Sequence[TopicElement]:
         url = f"{self.base_url}/api/2/topics/{topic_id_or_slug}/elements/"
         params = {"class": object_class.model_name()}
-        objs = self._get_objects(url, params=params, fields=["id", "element{id}"])
+        objs = self._get_objects(url, params=params, fields=["id", "element"])
         return [TopicElement(id=o["id"], object=object_class(o["element"]["id"])) for o in objs]
 
     def get_topic_objects[T: TopicObject](
