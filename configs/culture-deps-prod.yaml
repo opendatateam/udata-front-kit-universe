@@ -1,5 +1,5 @@
 # WARNING: overload tokens with envvars or a separate config file to avoid leaking secrets
-topic: univers-deps
+topic: univers-culture-deps
 datagouv:
   url: https://www.data.gouv.fr
   token: CONFIGURE_ME
