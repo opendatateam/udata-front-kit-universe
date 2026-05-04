@@ -285,7 +285,7 @@ class DatagouvMock:
             match=[
                 header_matcher(
                     {
-                        "X-Fields": f"data{{id,element{{id}},{','.join(INACTIVE_OBJECT_MARKERS)}}},next_page"
+                        "X-Fields": f"data{{id,element,{','.join(INACTIVE_OBJECT_MARKERS)}}},next_page"
                     }
                 ),
                 query_param_matcher({"class": object_class.model_name()}, strict_match=False),
