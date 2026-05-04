@@ -21,6 +21,7 @@ jobs:
       matrix:
         universe:
           - culture-prod
+          - culture-deps-prod
           - ecospheres-demo
           - ecospheres-prod
           - accessibilite-demo
