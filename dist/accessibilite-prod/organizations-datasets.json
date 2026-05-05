@@ -1,8 +1,308 @@
 [
   {
+    "id": "60a51dc54a1679b501da5da8",
+    "name": "Acceslibre",
+    "slug": "acceslibre",
+    "type": null
+  },
+  {
+    "id": "5901f4dfc751df412e7bb92d",
+    "name": "Agence nationale de la cohésion des territoires",
+    "slug": "agence-nationale-de-la-cohesion-des-territoires",
+    "type": null
+  },
+  {
+    "id": "538346d6a3a72906c7ec5c36",
+    "name": "Angers Loire Métropole",
+    "slug": "angers-loire-metropole",
+    "type": null
+  },
+  {
+    "id": "68ac6b1bac27d092cf43d24e",
+    "name": "APF FRANCE HANDICAP START UP STUDIO",
+    "slug": "apf-france-handicap-start-up-studio",
+    "type": null
+  },
+  {
     "id": "638f3c3328e95e6d4230126f",
     "name": "Association ADULLACT",
     "slug": "association-adullact",
+    "type": null
+  },
+  {
+    "id": "636cd3d7336141e7d0577f56",
+    "name": "Cartographie Nationale des lieux de médiation numérique",
+    "slug": "cartographie-nationale-des-lieux-de-mediation-numerique",
+    "type": null
+  },
+  {
+    "id": "552e97f3c751df636537dddb",
+    "name": "Centre National des Œuvres Universitaires et Scolaires",
+    "slug": "centre-national-des-oeuvres-universitaires-et-scolaires",
+    "type": null
+  },
+  {
+    "id": "5f60b2cb86bb3584d0f09f08",
+    "name": "Clermont Auvergne Métropole",
+    "slug": "clermont-auvergne-metropole",
+    "type": null
+  },
+  {
+    "id": "5bec4aea8b4c416395a5e99e",
+    "name": "Communauté d'Agglomération de l'Auxerrois",
+    "slug": "communaute-dagglomeration-de-lauxerrois",
+    "type": null
+  },
+  {
+    "id": "5cadb863634f41514da8fa0c",
+    "name": "Communauté d'Agglomération Privas Centre Ardèche",
+    "slug": "communaute-dagglomeration-privas-centre-ardeche",
+    "type": null
+  },
+  {
+    "id": "5bbc775c634f4114cd743ded",
+    "name": "Communauté d'Agglomération Saint-Lô Agglo",
+    "slug": "communaute-dagglomeration-saint-lo-agglo",
+    "type": null
+  },
+  {
+    "id": "5b17dbeb88ee3869a59ebdca",
+    "name": "Commune d'Anglet",
+    "slug": "mairie-danglet",
+    "type": null
+  },
+  {
+    "id": "5bd2e3918b4c413473d1b144",
+    "name": "Département du Doubs",
+    "slug": "departement-du-doubs",
+    "type": null
+  },
+  {
+    "id": "5c924c1c8b4c41159d78d937",
+    "name": "Département du Morbihan",
+    "slug": "departement-du-morbihan",
+    "type": null
+  },
+  {
+    "id": "558e9b15c751df2a26a453b9",
+    "name": "Direction Départementale des Territoires de l'Orne",
+    "slug": "direction-departementale-des-territoires-de-lorne",
+    "type": null
+  },
+  {
+    "id": "57fe2a35c751df21e179df72",
+    "name": "Direction interministérielle du numérique",
+    "slug": "direction-interministerielle-du-numerique",
+    "type": null
+  },
+  {
+    "id": "543e77eb88ee380c0d999949",
+    "name": "Grand Paris Seine Ouest",
+    "slug": "grand-paris-seine-ouest",
+    "type": null
+  },
+  {
+    "id": "54da1f52c751df59f7467389",
+    "name": "Grand Poitiers Open Data",
+    "slug": "grand-poitiers-open-data",
+    "type": null
+  },
+  {
+    "id": "568e5e9488ee38033aaf0bf4",
+    "name": "Île-de-France Mobilités",
+    "slug": "ile-de-france-mobilites",
+    "type": null
+  },
+  {
+    "id": "5e1b13418b4c4158c8eb6c82",
+    "name": "Jungle Bus",
+    "slug": "jungle-bus",
+    "type": null
+  },
+  {
+    "id": "534fff85a3a7292c64a77e9c",
+    "name": "La Poste",
+    "slug": "la-poste",
+    "type": null
+  },
+  {
+    "id": "5821930b88ee386862c65bb3",
+    "name": "La Rochelle",
+    "slug": "la-rochelle",
+    "type": null
+  },
+  {
+    "id": "59bfa079c751df6dad38dc0d",
+    "name": "Le Havre Seine Métropole",
+    "slug": "communaute-de-lagglomeration-havraise",
+    "type": null
+  },
+  {
+    "id": "55b8c85288ee3827203ca288",
+    "name": "Lorient Agglomération",
+    "slug": "lorient-agglomeration",
+    "type": null
+  },
+  {
+    "id": "5d1b06b46f44410e40f553ac",
+    "name": "Mairie de Rillieux la Pape",
+    "slug": "mairie-de-rillieux-la-pape",
+    "type": null
+  },
+  {
+    "id": "534fff7aa3a7292c64a77e0c",
+    "name": "Métropole de Lyon",
+    "slug": "grand-lyon",
+    "type": null
+  },
+  {
+    "id": "58b69c62c751df4b175dd7a4",
+    "name": "Métropole Européenne de Lille ",
+    "slug": "metropole-europeenne-de-lille",
+    "type": null
+  },
+  {
+    "id": "534fff95a3a7292c64a77fd8",
+    "name": "Ministère chargé des Sports",
+    "slug": "ministere-charge-des-sports",
+    "type": null
+  },
+  {
+    "id": "534fff90a3a7292c64a77f45",
+    "name": "Ministère de l'Enseignement supérieur, de la Recherche et de l'Espace",
+    "slug": "ministere-de-lenseignement-superieur-de-la-recherche-et-de-lespace",
+    "type": null
+  },
+  {
+    "id": "534fff91a3a7292c64a77f53",
+    "name": "Ministère de l'intérieur",
+    "slug": "ministere-de-linterieur",
+    "type": null
+  },
+  {
+    "id": "534fff94a3a7292c64a77fc1",
+    "name": "Ministère des Solidarités et de la Santé",
+    "slug": "ministere-des-solidarites-et-de-la-sante",
+    "type": null
+  },
+  {
+    "id": "534fff8ea3a7292c64a77f02",
+    "name": "Ministères économiques et financiers",
+    "slug": "ministeres-economiques-et-financiers",
+    "type": null
+  },
+  {
+    "id": "5be06c41634f4158c956b300",
+    "name": "Mulhouse Alsace Agglomération",
+    "slug": "mulhouse-alsace-agglomeration",
+    "type": null
+  },
+  {
+    "id": "534fff98a3a7292c64a78012",
+    "name": "Nantes Métropole",
+    "slug": "nantes-metropole",
+    "type": null
+  },
+  {
+    "id": "534fff9ba3a7292c64a78031",
+    "name": "Office national d'information sur les enseignements et les professions",
+    "slug": "office-national-d-information-sur-les-enseignements-et-les-professions",
+    "type": null
+  },
+  {
+    "id": "534fffa0a3a7292c64a7806b",
+    "name": "OpenStreetMap",
+    "slug": "openstreetmap",
+    "type": null
+  },
+  {
+    "id": "5bf88b3a8b4c4151badafa03",
+    "name": "Parc national des Écrins",
+    "slug": "parc-national-des-ecrins",
+    "type": null
+  },
+  {
+    "id": "5abca8d588ee386ee6ece479",
+    "name": "Point d'Accès National transport.data.gouv.fr",
+    "slug": "equipe-transport-data-gouv-fr",
+    "type": null
+  },
+  {
+    "id": "534fffa5a3a7292c64a7809e",
+    "name": "Premier ministre",
+    "slug": "premier-ministre",
+    "type": null
+  },
+  {
+    "id": "559a4970c751df46a9a453ba",
+    "name": "Région Bretagne",
+    "slug": "region-bretagne-1",
+    "type": null
+  },
+  {
+    "id": "534fffa8a3a7292c64a780c8",
+    "name": "Région Île-de-France",
+    "slug": "region-ile-de-france",
+    "type": null
+  },
+  {
+    "id": "580735be88ee3814295ff490",
+    "name": "Rennes Métropole en accès libre",
+    "slug": "rennes-metropole-en-acces-libre-1",
+    "type": null
+  },
+  {
+    "id": "56f54580c751df65ebc485cb",
+    "name": "Saemes ",
+    "slug": "saemes",
+    "type": null
+  },
+  {
+    "id": "5733009988ee3843a3d1b934",
+    "name": "Saint-Nazaire agglo - La CARENE",
+    "slug": "saint-nazaire-agglo-la-carene",
+    "type": null
+  },
+  {
+    "id": "681a1272bfa84b075f9531e1",
+    "name": "Service des données et études statistiques (SDES)",
+    "slug": "service-des-donnees-et-etudes-statistiques-sdes",
+    "type": null
+  },
+  {
+    "id": "534fffb0a3a7292c64a78115",
+    "name": "SNCF",
+    "slug": "sncf",
+    "type": null
+  },
+  {
+    "id": "5c09189f8b4c414a8d02298e",
+    "name": "Twisto",
+    "slug": "twisto",
+    "type": null
+  },
+  {
+    "id": "566594f388ee38738640355c",
+    "name": "Ville d'Antibes",
+    "slug": "ville-dantibes",
+    "type": null
+  },
+  {
+    "id": "59e05c6588ee386ef4f4f86d",
+    "name": "Ville de Lorient",
+    "slug": "ville-de-lorient",
+    "type": null
+  },
+  {
+    "id": "534fff89a3a7292c64a77eb7",
+    "name": "Ville de Paris",
+    "slug": "ville-de-paris",
+    "type": null
+  },
+  {
+    "id": "5dc56e0e8b4c412e7cd726a2",
+    "name": "Ville de Quiberon",
+    "slug": "ville-de-quiberon",
     "type": null
   }
 ]
