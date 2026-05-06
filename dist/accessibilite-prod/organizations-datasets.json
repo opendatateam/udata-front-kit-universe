@@ -54,6 +54,18 @@
     "type": null
   },
   {
+    "id": "5943987b88ee381f30d196f7",
+    "name": "Communauté d'Agglomération de Nevers",
+    "slug": "communaute-dagglomeration-de-nevers",
+    "type": null
+  },
+  {
+    "id": "589d6e22c751df0ff0ae0a65",
+    "name": "Communauté d'Agglomération du Grand Cahors",
+    "slug": "communaute-dagglomeration-du-grand-cahors",
+    "type": null
+  },
+  {
     "id": "5cadb863634f41514da8fa0c",
     "name": "Communauté d'Agglomération Privas Centre Ardèche",
     "slug": "communaute-dagglomeration-privas-centre-ardeche",
@@ -66,9 +78,21 @@
     "type": null
   },
   {
+    "id": "5a71cf5fc751df19bcdb5d11",
+    "name": "Communauté d'Agglomération Sophia Antipolis (CASA)",
+    "slug": "communaute-dagglomeration-sophia-antipolis-casa",
+    "type": null
+  },
+  {
     "id": "5b17dbeb88ee3869a59ebdca",
     "name": "Commune d'Anglet",
     "slug": "mairie-danglet",
+    "type": null
+  },
+  {
+    "id": "5c6303468b4c414d6ae2ebcd",
+    "name": "Commune de Saint-Paul-lès-Dax",
+    "slug": "commune-de-saint-paul-les-dax",
     "type": null
   },
   {
@@ -93,6 +117,12 @@
     "id": "57fe2a35c751df21e179df72",
     "name": "Direction interministérielle du numérique",
     "slug": "direction-interministerielle-du-numerique",
+    "type": null
+  },
+  {
+    "id": "5afd7ce888ee387d9f4e136f",
+    "name": "Grand Belfort Communauté d'Agglomération",
+    "slug": "grand-belfort-communaute-dagglomeration",
     "type": null
   },
   {
@@ -234,9 +264,21 @@
     "type": null
   },
   {
+    "id": "6756af045abd9e3866d08ece",
+    "name": "Quimperlé Communauté",
+    "slug": "quimperle-communaute",
+    "type": null
+  },
+  {
     "id": "559a4970c751df46a9a453ba",
     "name": "Région Bretagne",
     "slug": "region-bretagne-1",
+    "type": null
+  },
+  {
+    "id": "534fffa7a3a7292c64a780c5",
+    "name": "Région des Pays de la Loire",
+    "slug": "region-des-pays-de-la-loire",
     "type": null
   },
   {
@@ -264,6 +306,12 @@
     "type": null
   },
   {
+    "id": "5bb32d078b4c412462c28955",
+    "name": "SAINT-QUENTIN-EN-YVELINES",
+    "slug": "saint-quentin-en-yvelines",
+    "type": null
+  },
+  {
     "id": "681a1272bfa84b075f9531e1",
     "name": "Service des données et études statistiques (SDES)",
     "slug": "service-des-donnees-et-etudes-statistiques-sdes",
@@ -273,6 +321,18 @@
     "id": "534fffb0a3a7292c64a78115",
     "name": "SNCF",
     "slug": "sncf",
+    "type": null
+  },
+  {
+    "id": "534fffb3a3a7292c64a78129",
+    "name": "Toulouse métropole",
+    "slug": "toulouse-metropole",
+    "type": null
+  },
+  {
+    "id": "5cb6d4f78b4c4118e18f37d1",
+    "name": "Tours Métropole Val de Loire",
+    "slug": "tours-metropole-val-de-loire",
     "type": null
   },
   {
@@ -288,9 +348,33 @@
     "type": null
   },
   {
+    "id": "58d53c4688ee380aeea5e932",
+    "name": "Ville de Bayonne",
+    "slug": "ville-de-bayonne",
+    "type": null
+  },
+  {
+    "id": "54d8f2a4c751df1df7467389",
+    "name": "Ville de Boulogne-Billancourt",
+    "slug": "ville-de-boulogne-billancourt",
+    "type": null
+  },
+  {
+    "id": "5733038988ee38472ed1b934",
+    "name": "Ville de Grenoble",
+    "slug": "ville-de-grenoble",
+    "type": null
+  },
+  {
     "id": "59e05c6588ee386ef4f4f86d",
     "name": "Ville de Lorient",
     "slug": "ville-de-lorient",
+    "type": null
+  },
+  {
+    "id": "534fffb8a3a7292c64a7814c",
+    "name": "Ville de Marseille",
+    "slug": "ville-de-marseille",
     "type": null
   },
   {
@@ -303,6 +387,18 @@
     "id": "5dc56e0e8b4c412e7cd726a2",
     "name": "Ville de Quiberon",
     "slug": "ville-de-quiberon",
+    "type": null
+  },
+  {
+    "id": "672cca10f8b4b813c263fbca",
+    "name": "Ville de Suresnes",
+    "slug": "ville-de-suresnes",
+    "type": null
+  },
+  {
+    "id": "5a3a7cd8c751df3092aea45a",
+    "name": "Ville du Havre",
+    "slug": "ville-du-havre",
     "type": null
   }
 ]
