@@ -1,5 +1,5 @@
 API for https://demo.data.gouv.fr ready.
-Starting at Tue May  5 07:25:05 2026.
+Starting at Wed May  6 07:42:11 2026.
 Processing universe topic 'univers-ecospheres'.
 Found 184 entries in grist.
 Unknown Organization 5cb0433b8b4c410a59915675
@@ -10,11 +10,11 @@ Unknown Organization 65df5d4a04b5dff5a965e2fd
 Unknown Organization 67a352054456182679d0b19b
 Unknown Organization 68221b9ed5f653ba1129729a
 Unknown Organization 683488ce49c7526820da233d
-Found 27915 datasets matching the upcoming universe.
-Found 27962 datasets currently in the universe.
+Found 27933 datasets matching the upcoming universe.
+Found 27915 datasets currently in the universe.
 Updating topic:
-- Adding 258 datasets...
-- Deleting 305 datasets...
+- Adding 24 datasets...
+- Deleting 6 datasets...
 Generating output file dist/ecospheres-demo/organizations-datasets.json with 167 entries...
 Unknown Organization 5cb0433b8b4c410a59915675
 Unknown Organization 5ac5cb0388ee38796b3a476b
@@ -32,4 +32,4 @@ Updating topic:
 Generating output file dist/ecospheres-demo/organizations-dataservices.json with 21 entries...
 Found 18 bouquets with the universe tag.
 Generating output file dist/ecospheres-demo/organizations-bouquets.json with 16 entries...
-Done at Tue May  5 07:29:51 2026 in 286 seconds.
+Done at Wed May  6 07:46:12 2026 in 242 seconds.
