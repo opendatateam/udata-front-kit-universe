@@ -6,6 +6,12 @@
     "type": null
   },
   {
+    "id": "620e250a501d82bf8d4afbd0",
+    "name": "ADN Tourisme",
+    "slug": "adn-tourisme",
+    "type": null
+  },
+  {
     "id": "5901f4dfc751df412e7bb92d",
     "name": "Agence nationale de la cohésion des territoires",
     "slug": "agence-nationale-de-la-cohesion-des-territoires",
@@ -105,18 +111,6 @@
     "id": "5c924c1c8b4c41159d78d937",
     "name": "Département du Morbihan",
     "slug": "departement-du-morbihan",
-    "type": null
-  },
-  {
-    "id": "558e9b15c751df2a26a453b9",
-    "name": "Direction Départementale des Territoires de l'Orne",
-    "slug": "direction-departementale-des-territoires-de-lorne",
-    "type": null
-  },
-  {
-    "id": "57fe2a35c751df21e179df72",
-    "name": "Direction interministérielle du numérique",
-    "slug": "direction-interministerielle-du-numerique",
     "type": null
   },
   {
@@ -324,6 +318,12 @@
     "type": null
   },
   {
+    "id": "64131045e3b835604271d9d8",
+    "name": "STU Bourges",
+    "slug": "stu-bourges",
+    "type": null
+  },
+  {
     "id": "534fffb3a3a7292c64a78129",
     "name": "Toulouse métropole",
     "slug": "toulouse-metropole",
@@ -387,6 +387,12 @@
     "id": "5dc56e0e8b4c412e7cd726a2",
     "name": "Ville de Quiberon",
     "slug": "ville-de-quiberon",
+    "type": null
+  },
+  {
+    "id": "5ab12b6ec751df128414f914",
+    "name": "Ville de ROSCOFF",
+    "slug": "ville-de-roscoff",
     "type": null
   },
   {
