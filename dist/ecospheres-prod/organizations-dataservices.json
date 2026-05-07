@@ -156,6 +156,12 @@
     "type": "EPIC"
   },
   {
+    "id": "61937d50e54eade2bbf8e8df",
+    "name": "Registre de Preuve de Covoiturage",
+    "slug": "registre-de-preuve-de-covoiturage",
+    "type": "Administration centrale"
+  },
+  {
     "id": "534fffafa3a7292c64a78103",
     "name": "Shom",
     "slug": "shom",
