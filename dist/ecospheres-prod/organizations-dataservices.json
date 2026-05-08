@@ -138,6 +138,12 @@
     "type": "Administration centrale"
   },
   {
+    "id": "56c44eb7c751df689e6c6de0",
+    "name": "Observatoire de l'environnement en Bretagne",
+    "slug": "gip-bretagne-environnement",
+    "type": "GIP"
+  },
+  {
     "id": "5a0f0384c751df5f68d855b9",
     "name": "Open Data Réseaux Énergies",
     "slug": "open-data-reseaux-energies-1",
@@ -154,12 +160,6 @@
     "name": "Régie autonome des transports parisiens (RATP)",
     "slug": "regie-autonome-des-transports-parisiens-ratp",
     "type": "EPIC"
-  },
-  {
-    "id": "61937d50e54eade2bbf8e8df",
-    "name": "Registre de Preuve de Covoiturage",
-    "slug": "registre-de-preuve-de-covoiturage",
-    "type": "Administration centrale"
   },
   {
     "id": "534fffafa3a7292c64a78103",
