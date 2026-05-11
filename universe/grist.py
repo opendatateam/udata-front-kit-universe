@@ -45,6 +45,7 @@ class GristApi:
         )
         r.raise_for_status()
         records = r.json()["records"]
+        # index entries from start=1 to match Grist line-numbering
         entries = [self._make_entry(rec["fields"], idx) for idx, rec in enumerate(records, start=1)]
         return [entry for entry in uniquify(entries) if entry is not None]
 
