@@ -50,6 +50,11 @@ def normalize_string(string: str) -> str:
     return unicodedata.normalize("NFKD", string).encode("ascii", "ignore").decode("ascii").lower()
 
 
+def sanitize_string(string: str | None) -> str | None:
+    """Return stripped string when not empty, otherwise None"""
+    return (string.strip() if string else None) or None
+
+
 def uniquify[T](iterable: Iterable[T]) -> Sequence[T]:
     """Return list of unique elements from `iterable`, preserving original order"""
     return list(dict.fromkeys(iterable))
