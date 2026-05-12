@@ -3,103 +3,103 @@
     "id": "534fff4ca3a7292c64a77c95",
     "name": "ADEME",
     "slug": "ademe",
-    "type": ""
+    "type": null
   },
   {
     "id": "534fff4ea3a7292c64a77cad",
     "name": "Agence de l'eau Rhône-Méditerranée et Corse",
     "slug": "agence-de-l-eau-rhone-mediterranee-et-corse",
-    "type": ""
+    "type": null
   },
   {
     "id": "634916955ef1b4d57ca08835",
     "name": "Agence de l'eau Seine-Normandie",
     "slug": "agence-de-leau-seine-normandie-1",
-    "type": ""
+    "type": null
   },
   {
     "id": "62da6837cde1491f3727cdb2",
     "name": "Agence Nationale de l'Habitat",
     "slug": "agence-nationale-de-lhabitat",
-    "type": ""
+    "type": null
   },
   {
     "id": "5901f4dfc751df412e7bb92d",
     "name": "Agence nationale de la cohésion des territoires",
     "slug": "agence-nationale-de-la-cohesion-des-territoires",
-    "type": ""
+    "type": null
   },
   {
     "id": "534fff51a3a7292c64a77cca",
     "name": "Agence nationale pour la rénovation urbaine",
     "slug": "agence-nationale-pour-la-renovation-urbaine",
-    "type": ""
+    "type": null
   },
   {
     "id": "5b1138d9c751df2618dc4662",
     "name": "Agence ORE",
     "slug": "agence-ore-3",
-    "type": ""
+    "type": null
   },
   {
     "id": "5a4381adc751df74bae4627d",
     "name": "Airparif",
     "slug": "airparif-1",
-    "type": ""
+    "type": null
   },
   {
     "id": "59a538b688ee386b121578b9",
     "name": "Atmo Auvergne-Rhône-Alpes",
     "slug": "atmo-auvergne-rhone-alpes",
-    "type": ""
+    "type": null
   },
   {
     "id": "5ddbf5ff6f444103e11e9d3d",
     "name": "Atmo Bourgogne-Franche-Comté",
     "slug": "atmo-bourgogne-franche-comte",
-    "type": ""
+    "type": null
   },
   {
     "id": "5889ea7a88ee385a5e9b81a4",
     "name": "ATMO Grand Est",
     "slug": "atmo-grand-est",
-    "type": ""
+    "type": null
   },
   {
     "id": "5b9fb3678b4c416ff2277bb5",
     "name": "AtmoSud",
     "slug": "atmosud",
-    "type": ""
+    "type": null
   },
   {
     "id": "66601e784637c6bfa87b06ca",
     "name": "Bureau de Recherches Géologiques et Minières",
     "slug": "bureau-de-recherches-geologiques-et-minieres",
-    "type": ""
+    "type": null
   },
   {
     "id": "61dc6a1398b3376b6fa0d0d9",
     "name": "Centre Scientifique et Technique du Batiment",
     "slug": "centre-scientifique-et-technique-du-batiment",
-    "type": ""
+    "type": null
   },
   {
     "id": "5c812a16634f416583ed1876",
     "name": "Cerema",
     "slug": "cerema",
-    "type": ""
+    "type": null
   },
   {
     "id": "5b85546b634f41167d62ce37",
     "name": "Commission de régulation de l'énergie (CRE)",
     "slug": "commission-de-regulation-de-lenergie",
-    "type": ""
+    "type": null
   },
   {
     "id": "5bf7f6a3634f413588391745",
     "name": "DataGrandEst",
     "slug": "datagrandest",
-    "type": ""
+    "type": null
   },
   {
     "id": "58ad720388ee381d53318fb0",
@@ -705,109 +705,109 @@
     "id": "67884b4da4fca9c97bbef479",
     "name": "Ecolab",
     "slug": "ecolab-1",
-    "type": ""
+    "type": null
   },
   {
     "id": "60240cd536ca1c415a3053a2",
     "name": "EDF Systèmes Energétiques Insulaires",
     "slug": "edf-systemes-energetiques-insulaires",
-    "type": ""
+    "type": null
   },
   {
     "id": "605074cb59c1d13e775073d4",
     "name": "Electricité de France",
     "slug": "electricite-de-france",
-    "type": ""
+    "type": null
   },
   {
     "id": "560d929ac751df40ef756894",
     "name": "Enedis",
     "slug": "electricite-reseau-distribution-france",
-    "type": ""
+    "type": null
   },
   {
     "id": "63ea4747c2e5458da3b97b35",
     "name": "Engie Mobilités Electriques",
     "slug": "engie-mobilites-electriques",
-    "type": ""
+    "type": null
   },
   {
     "id": "5eb035fd32d114765d6e8389",
     "name": "Fédération des Parcs Naturels Régionaux de France",
     "slug": "federation-des-parcs-naturels-regionaux-de-france",
-    "type": ""
+    "type": null
   },
   {
     "id": "5ddc086f634f41190d4c1006",
     "name": "Géo2France",
     "slug": "geo2france",
-    "type": ""
+    "type": null
   },
   {
     "id": "571e4595c751df54b2fcca0d",
     "name": "GRDF",
     "slug": "grdf",
-    "type": ""
+    "type": null
   },
   {
     "id": "568e5e9488ee38033aaf0bf4",
     "name": "Île-de-France Mobilités",
     "slug": "ile-de-france-mobilites",
-    "type": ""
+    "type": null
   },
   {
     "id": "54f461f8c751df0f88882844",
     "name": "Institut français de recherche pour l'exploitation de la mer (IFREMER)",
     "slug": "institut-francais-de-recherche-pour-lexploitation-de-la-mer",
-    "type": ""
+    "type": null
   },
   {
     "id": "56e02813c751df1c1a1ffccd",
     "name": "Institut National de l'Environnement Industriel et des Risques",
     "slug": "institut-national-de-lenvironnement-industriel-et-des-risques",
-    "type": ""
+    "type": null
   },
   {
     "id": "534fff80a3a7292c64a77e41",
     "name": "Institut national de l'information géographique et forestière",
     "slug": "institut-national-de-linformation-geographique-et-forestiere",
-    "type": ""
+    "type": null
   },
   {
     "id": "5be949a9634f415deb46af0e",
     "name": "Lig'Air",
     "slug": "ligair",
-    "type": ""
+    "type": null
   },
   {
     "id": "534fff8ba3a7292c64a77ed4",
     "name": "Météo-France",
     "slug": "meteo-france",
-    "type": ""
+    "type": null
   },
   {
     "id": "534fff8fa3a7292c64a77f3d",
     "name": "Ministère de la Cohésion des territoires",
     "slug": "ministere-de-l-egalite-des-territoires-et-du-logement",
-    "type": ""
+    "type": null
   },
   {
     "id": "534fff8da3a7292c64a77eee",
     "name": "Ministère de la Transition écologique",
     "slug": "ministere-de-la-transition-ecologique",
-    "type": ""
+    "type": null
   },
   {
     "id": "551d4b6cc751df4f1a0cd89f",
     "name": "Morbihan énergies",
     "slug": "morbihan-energies",
-    "type": ""
+    "type": null
   },
   {
     "id": "55842c2bc751df66bba453b9",
     "name": "Muséum National d'Histoire Naturelle",
     "slug": "museum-national-dhistoire-naturelle",
-    "type": ""
+    "type": null
   },
   {
     "id": "5c8f5e3d8b4c4110e6286460",
@@ -819,186 +819,186 @@
     "id": "56c44eb7c751df689e6c6de0",
     "name": "Observatoire de l'environnement en Bretagne",
     "slug": "gip-bretagne-environnement",
-    "type": ""
+    "type": null
   },
   {
     "id": "5feb30f52fd6b61032e301c9",
     "name": "Observatoire de Recherche Montpelliérain de l'Environnement",
     "slug": "observatoire-de-recherche-montpellierain-de-lenvironnement",
-    "type": ""
+    "type": null
   },
   {
     "id": "5d7f937b8b4c4165718fbff1",
     "name": "Office Français de la Biodiversité",
     "slug": "office-francais-de-la-biodiversite",
-    "type": ""
+    "type": null
   },
   {
     "id": "534fff9ca3a7292c64a7803e",
     "name": "Office National des Forêts",
     "slug": "office-national-des-forets",
-    "type": ""
+    "type": null
   },
   {
     "id": "65b916b3d12193d250fedb69",
     "name": "OFFICE PUBLIC DE L'HABITAT DES LANDES",
     "slug": "office-public-de-lhabitat-des-landes",
-    "type": ""
+    "type": null
   },
   {
     "id": "5e874ace3af8a02435889f1b",
     "name": "Oise Mobilité - Syndicat mixte des transports collectifs de l'Oise",
     "slug": "oise-mobilite-syndicat-mixte-des-transports-collectifs-de-loise",
-    "type": ""
+    "type": null
   },
   {
     "id": "5a0f0384c751df5f68d855b9",
     "name": "Open Data Réseaux Énergies",
     "slug": "open-data-reseaux-energies-1",
-    "type": ""
+    "type": null
   },
   {
     "id": "5bcee3028b4c4135155f881c",
     "name": "Parc & Géoparc Normandie-Maine",
     "slug": "parc-geoparc-normandie-maine",
-    "type": ""
+    "type": null
   },
   {
     "id": "5f898bdf254e86297006ef0c",
     "name": "Parc national de forêts",
     "slug": "parc-national-de-forets",
-    "type": ""
+    "type": null
   },
   {
     "id": "5be05903634f4138316458c7",
     "name": "Parc national des Cévennes",
     "slug": "parc-national-des-cevennes",
-    "type": ""
+    "type": null
   },
   {
     "id": "5bf88b3a8b4c4151badafa03",
     "name": "Parc national des Écrins",
     "slug": "parc-national-des-ecrins",
-    "type": ""
+    "type": null
   },
   {
     "id": "57a0a78788ee383e74d73ff5",
     "name": "Parc naturel régional de la Montagne de Reims",
     "slug": "parc-naturel-regional-de-la-montagne-de-reims",
-    "type": ""
+    "type": null
   },
   {
     "id": "5dc53b1b6f4441145da42202",
     "name": "Parc Naturel régional de la Montagne de Reims",
     "slug": "parc-naturel-regional-de-la-montagne-de-reims-1",
-    "type": ""
+    "type": null
   },
   {
     "id": "563a2ec3c751df39a8dcc3f0",
     "name": "Parc naturel régional des Vosges du Nord",
     "slug": "parc-naturel-regional-des-vosges-du-nord",
-    "type": ""
+    "type": null
   },
   {
     "id": "5f91506e6d1d6f595ceb0ea8",
     "name": "Parc naturel régional du Morvan ",
     "slug": "parc-naturel-regional-du-morvan",
-    "type": ""
+    "type": null
   },
   {
     "id": "546e60c7c751df7135068e8d",
     "name": "Parc Naturel Régional du Vercors",
     "slug": "parc-naturel-regional-du-vercors",
-    "type": ""
+    "type": null
   },
   {
     "id": "655e13af657b1d085c6a9e90",
     "name": "Parcs nationaux de France",
     "slug": "parcs-nationaux-de-france",
-    "type": ""
+    "type": null
   },
   {
     "id": "63d2af46663cff0dff096cf3",
     "name": "Parcs naturels régionaux de Provence-Alpes-Côte d'Azur",
     "slug": "parcs-naturels-regionaux-de-provence-alpes-cote-dazur",
-    "type": ""
+    "type": null
   },
   {
     "id": "5abca8d588ee386ee6ece479",
     "name": "Point d'Accès National transport.data.gouv.fr",
     "slug": "equipe-transport-data-gouv-fr",
-    "type": ""
+    "type": null
   },
   {
     "id": "534fffa6a3a7292c64a780b7",
     "name": "Régie autonome des transports parisiens (RATP)",
     "slug": "regie-autonome-des-transports-parisiens-ratp",
-    "type": ""
+    "type": null
   },
   {
     "id": "55f03e1088ee384bc1a46ec1",
     "name": "Réseau de Transport d'Electricité",
     "slug": "reseau-de-transport-delectricite",
-    "type": ""
+    "type": null
   },
   {
     "id": "5b0863e088ee382b48ed72ea",
     "name": "Section Cadastre-Topographie de la Polynésie française",
     "slug": "section-cadastre-topographie-de-la-polynesie-francaise",
-    "type": ""
+    "type": null
   },
   {
     "id": "534fffafa3a7292c64a78103",
     "name": "Shom",
     "slug": "shom",
-    "type": ""
+    "type": null
   },
   {
     "id": "534fffb0a3a7292c64a78115",
     "name": "SNCF",
     "slug": "sncf",
-    "type": ""
+    "type": null
   },
   {
     "id": "534fffb1a3a7292c64a7811f",
     "name": "Société des grands projets",
     "slug": "societe-des-grands-projets-1",
-    "type": ""
+    "type": null
   },
   {
     "id": "6380a35b9f35ddce103462cc",
     "name": "Syndicat Mixte des Milieux Aquatiques et des Rivières de l'Aude",
     "slug": "syndicat-mixte-des-milieux-aquatiques-et-des-rivieres-de-laude",
-    "type": ""
+    "type": null
   },
   {
     "id": "575fc7f0c751df0e1dac31a0",
     "name": "Syndicat Mixte des Mobilités de l'Aire Grenobloise",
     "slug": "syndicat-mixte-des-mobilites-de-laire-grenobloise",
-    "type": ""
+    "type": null
   },
   {
     "id": "5c10d7b38b4c413b777a3fa6",
     "name": "Syndicat mixte EPTB Meurthe Madon",
     "slug": "syndicat-mixte-eptb-meurthe-madon",
-    "type": ""
+    "type": null
   },
   {
     "id": "534fffb2a3a7292c64a78123",
     "name": "Système d'Information sur l'Eau",
     "slug": "systeme-d-information-sur-l-eau",
-    "type": ""
+    "type": null
   },
   {
     "id": "653130edb6223421ef195862",
     "name": "Système d'information sur la biodiversité",
     "slug": "systeme-dinformation-sur-la-biodiversite",
-    "type": ""
+    "type": null
   },
   {
     "id": "67c5ea43c8e7b1f1830d4739",
     "name": "Tableau de bord des mobilités durables",
     "slug": "tableau-de-bord-des-mobilites-durables",
-    "type": ""
+    "type": null
   }
 ]

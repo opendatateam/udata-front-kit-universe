@@ -3,126 +3,126 @@
     "id": "534fff4ca3a7292c64a77c95",
     "name": "ADEME",
     "slug": "ademe",
-    "type": ""
+    "type": null
   },
   {
     "id": "62da6837cde1491f3727cdb2",
     "name": "Agence Nationale de l'Habitat",
     "slug": "agence-nationale-de-lhabitat",
-    "type": ""
+    "type": null
   },
   {
     "id": "5901f4dfc751df412e7bb92d",
     "name": "Agence nationale de la cohésion des territoires",
     "slug": "agence-nationale-de-la-cohesion-des-territoires",
-    "type": ""
+    "type": null
   },
   {
     "id": "66601e784637c6bfa87b06ca",
     "name": "Bureau de Recherches Géologiques et Minières",
     "slug": "bureau-de-recherches-geologiques-et-minieres",
-    "type": ""
+    "type": null
   },
   {
     "id": "61dc6a1398b3376b6fa0d0d9",
     "name": "Centre Scientifique et Technique du Batiment",
     "slug": "centre-scientifique-et-technique-du-batiment",
-    "type": ""
+    "type": null
   },
   {
     "id": "5c812a16634f416583ed1876",
     "name": "Cerema",
     "slug": "cerema",
-    "type": ""
+    "type": null
   },
   {
     "id": "67884b4da4fca9c97bbef479",
     "name": "Ecolab",
     "slug": "ecolab-1",
-    "type": ""
+    "type": null
   },
   {
     "id": "60240cd536ca1c415a3053a2",
     "name": "EDF Systèmes Energétiques Insulaires",
     "slug": "edf-systemes-energetiques-insulaires",
-    "type": ""
+    "type": null
   },
   {
     "id": "605074cb59c1d13e775073d4",
     "name": "Electricité de France",
     "slug": "electricite-de-france",
-    "type": ""
+    "type": null
   },
   {
     "id": "571e4595c751df54b2fcca0d",
     "name": "GRDF",
     "slug": "grdf",
-    "type": ""
+    "type": null
   },
   {
     "id": "568e5e9488ee38033aaf0bf4",
     "name": "Île-de-France Mobilités",
     "slug": "ile-de-france-mobilites",
-    "type": ""
+    "type": null
   },
   {
     "id": "54f461f8c751df0f88882844",
     "name": "Institut français de recherche pour l'exploitation de la mer (IFREMER)",
     "slug": "institut-francais-de-recherche-pour-lexploitation-de-la-mer",
-    "type": ""
+    "type": null
   },
   {
     "id": "534fff80a3a7292c64a77e41",
     "name": "Institut national de l'information géographique et forestière",
     "slug": "institut-national-de-linformation-geographique-et-forestiere",
-    "type": ""
+    "type": null
   },
   {
     "id": "5be949a9634f415deb46af0e",
     "name": "Lig'Air",
     "slug": "ligair",
-    "type": ""
+    "type": null
   },
   {
     "id": "534fff8ba3a7292c64a77ed4",
     "name": "Météo-France",
     "slug": "meteo-france",
-    "type": ""
+    "type": null
   },
   {
     "id": "534fff8da3a7292c64a77eee",
     "name": "Ministère de la Transition écologique",
     "slug": "ministere-de-la-transition-ecologique",
-    "type": ""
+    "type": null
   },
   {
     "id": "5a0f0384c751df5f68d855b9",
     "name": "Open Data Réseaux Énergies",
     "slug": "open-data-reseaux-energies-1",
-    "type": ""
+    "type": null
   },
   {
     "id": "534fffa6a3a7292c64a780b7",
     "name": "Régie autonome des transports parisiens (RATP)",
     "slug": "regie-autonome-des-transports-parisiens-ratp",
-    "type": ""
+    "type": null
   },
   {
     "id": "534fffafa3a7292c64a78103",
     "name": "Shom",
     "slug": "shom",
-    "type": ""
+    "type": null
   },
   {
     "id": "534fffb0a3a7292c64a78115",
     "name": "SNCF",
     "slug": "sncf",
-    "type": ""
+    "type": null
   },
   {
     "id": "534fffb2a3a7292c64a78123",
     "name": "Système d'Information sur l'Eau",
     "slug": "systeme-d-information-sur-l-eau",
-    "type": ""
+    "type": null
   }
 ]
