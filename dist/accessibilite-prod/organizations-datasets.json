@@ -36,6 +36,12 @@
     "type": null
   },
   {
+    "id": "5b0d11f688ee382af4b18c95",
+    "name": "Bordeaux Métropole",
+    "slug": "bordeaux-metropole",
+    "type": null
+  },
+  {
     "id": "636cd3d7336141e7d0577f56",
     "name": "Cartographie Nationale des lieux de médiation numérique",
     "slug": "cartographie-nationale-des-lieux-de-mediation-numerique",
@@ -72,6 +78,12 @@
     "type": null
   },
   {
+    "id": "5c516739634f4121096513af",
+    "name": "Communauté d'agglomération Porte de l'Isère",
+    "slug": "communaute-dagglomeration-porte-de-lisere",
+    "type": null
+  },
+  {
     "id": "5cadb863634f41514da8fa0c",
     "name": "Communauté d'Agglomération Privas Centre Ardèche",
     "slug": "communaute-dagglomeration-privas-centre-ardeche",
@@ -96,9 +108,21 @@
     "type": null
   },
   {
+    "id": "5d123361634f4145bb4131c8",
+    "name": "Commune de Saint-Germain-en-Laye",
+    "slug": "commune-de-saint-germain-en-laye",
+    "type": null
+  },
+  {
     "id": "5c6303468b4c414d6ae2ebcd",
     "name": "Commune de Saint-Paul-lès-Dax",
     "slug": "commune-de-saint-paul-les-dax",
+    "type": null
+  },
+  {
+    "id": "5bb1c7e4634f412a95dff6b9",
+    "name": "Conseil départemental de l'Isère",
+    "slug": "conseil-departemental-de-lisere-1",
     "type": null
   },
   {
@@ -111,6 +135,12 @@
     "id": "5c924c1c8b4c41159d78d937",
     "name": "Département du Morbihan",
     "slug": "departement-du-morbihan",
+    "type": null
+  },
+  {
+    "id": "60759b5d1136de3965b997ae",
+    "name": "Géofoncier",
+    "slug": "geofoncier",
     "type": null
   },
   {
@@ -156,6 +186,12 @@
     "type": null
   },
   {
+    "id": "60a4cc2104da0aa02e09dfe1",
+    "name": "Lambersart",
+    "slug": "lambersart",
+    "type": null
+  },
+  {
     "id": "59bfa079c751df6dad38dc0d",
     "name": "Le Havre Seine Métropole",
     "slug": "communaute-de-lagglomeration-havraise",
@@ -168,9 +204,21 @@
     "type": null
   },
   {
+    "id": "5d1db3df8b4c416509fd0870",
+    "name": "Mairie de Cannes",
+    "slug": "mairie-de-cannes",
+    "type": null
+  },
+  {
     "id": "5d1b06b46f44410e40f553ac",
     "name": "Mairie de Rillieux la Pape",
     "slug": "mairie-de-rillieux-la-pape",
+    "type": null
+  },
+  {
+    "id": "5c050cfb8b4c413be36cb1c3",
+    "name": "Mairie de Saint-Denis (La Réunion)",
+    "slug": "mairie-de-saint-denis-la-reunion",
     "type": null
   },
   {
@@ -183,6 +231,18 @@
     "id": "58b69c62c751df4b175dd7a4",
     "name": "Métropole Européenne de Lille ",
     "slug": "metropole-europeenne-de-lille",
+    "type": null
+  },
+  {
+    "id": "5a0467d188ee38711f65672c",
+    "name": "Métropole Rouen Normandie",
+    "slug": "metropole-rouen-normandie",
+    "type": null
+  },
+  {
+    "id": "673de575b029836b2b78a861",
+    "name": "Meyzieu",
+    "slug": "meyzieu",
     "type": null
   },
   {
@@ -222,6 +282,12 @@
     "type": null
   },
   {
+    "id": "57e3e31888ee38155a5ff490",
+    "name": "Musée d'art et d'histoire - Ville de Saint-Brieuc",
+    "slug": "musee-dart-et-dhistoire-ville-de-saint-brieuc",
+    "type": null
+  },
+  {
     "id": "534fff98a3a7292c64a78012",
     "name": "Nantes Métropole",
     "slug": "nantes-metropole",
@@ -237,6 +303,18 @@
     "id": "534fffa0a3a7292c64a7806b",
     "name": "OpenStreetMap",
     "slug": "openstreetmap",
+    "type": null
+  },
+  {
+    "id": "57ed2fe9c751df236179df72",
+    "name": "Orléans Métropole",
+    "slug": "orleans-agglo",
+    "type": null
+  },
+  {
+    "id": "61a4f97a13ece510797ede50",
+    "name": "Oùra",
+    "slug": "oura",
     "type": null
   },
   {
@@ -261,6 +339,12 @@
     "id": "6756af045abd9e3866d08ece",
     "name": "Quimperlé Communauté",
     "slug": "quimperle-communaute",
+    "type": null
+  },
+  {
+    "id": "60784425bed18cfaefe5e653",
+    "name": "Région Auvergne-Rhône-Alpes",
+    "slug": "region-auvergne-rhone-alpes",
     "type": null
   },
   {
@@ -294,6 +378,12 @@
     "type": null
   },
   {
+    "id": "619f587a232623229cd54d68",
+    "name": "Saint-Marcellin ",
+    "slug": "saint-marcellin",
+    "type": null
+  },
+  {
     "id": "5733009988ee3843a3d1b934",
     "name": "Saint-Nazaire agglo - La CARENE",
     "slug": "saint-nazaire-agglo-la-carene",
@@ -324,6 +414,12 @@
     "type": null
   },
   {
+    "id": "575fc7f0c751df0e1dac31a0",
+    "name": "Syndicat Mixte des Mobilités de l'Aire Grenobloise",
+    "slug": "syndicat-mixte-des-mobilites-de-laire-grenobloise",
+    "type": null
+  },
+  {
     "id": "534fffb3a3a7292c64a78129",
     "name": "Toulouse métropole",
     "slug": "toulouse-metropole",
@@ -348,6 +444,12 @@
     "type": null
   },
   {
+    "id": "5bb47c2a634f416334276b4f",
+    "name": "Ville d'Autun",
+    "slug": "ville-dautun",
+    "type": null
+  },
+  {
     "id": "58d53c4688ee380aeea5e932",
     "name": "Ville de Bayonne",
     "slug": "ville-de-bayonne",
@@ -360,9 +462,33 @@
     "type": null
   },
   {
+    "id": "5d9b54b3634f4164bb0bec9d",
+    "name": "Ville de Caen",
+    "slug": "ville-de-caen",
+    "type": null
+  },
+  {
     "id": "5733038988ee38472ed1b934",
     "name": "Ville de Grenoble",
     "slug": "ville-de-grenoble",
+    "type": null
+  },
+  {
+    "id": "59d6526ac751df274a175d35",
+    "name": "Ville de Lanester",
+    "slug": "ville-de-lanester",
+    "type": null
+  },
+  {
+    "id": "5afd51bfc751df62ae0b80ff",
+    "name": "Ville de Levallois",
+    "slug": "ville-de-levallois",
+    "type": null
+  },
+  {
+    "id": "609e8e40d5d435e4228f5d8a",
+    "name": "Ville de Loos",
+    "slug": "ville-de-loos",
     "type": null
   },
   {
@@ -393,6 +519,12 @@
     "id": "5ab12b6ec751df128414f914",
     "name": "Ville de ROSCOFF",
     "slug": "ville-de-roscoff",
+    "type": null
+  },
+  {
+    "id": "5be53f55634f4119ca26ec72",
+    "name": "Ville de Roubaix",
+    "slug": "ville-de-roubaix",
     "type": null
   },
   {
