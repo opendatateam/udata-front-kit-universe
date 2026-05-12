@@ -48,6 +48,12 @@
     "type": "Administration centrale"
   },
   {
+    "id": "568e9657c751df5a92c664bc",
+    "name": "DREAL Pays de la Loire",
+    "slug": "dreal-pays-de-la-loire-direction-regionale-de-lenvironnement-de-lamenagement-et-du-logement-pays-de-la-loire",
+    "type": "DREAL, DRIEAT"
+  },
+  {
     "id": "69020898521fbd7568b1dc26",
     "name": "Ecobalyse",
     "slug": "ecobalyse",
