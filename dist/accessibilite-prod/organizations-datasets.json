@@ -126,6 +126,18 @@
     "type": null
   },
   {
+    "id": "54aff788c751df39e138127d",
+    "name": "Département des Côtes d'Armor",
+    "slug": "departement-des-cotes-darmor",
+    "type": null
+  },
+  {
+    "id": "544e1b0888ee38289ae1ed05",
+    "name": "Département des Hauts-de-Seine",
+    "slug": "departement-des-hauts-de-seine",
+    "type": null
+  },
+  {
     "id": "5bd2e3918b4c413473d1b144",
     "name": "Département du Doubs",
     "slug": "departement-du-doubs",
@@ -135,6 +147,24 @@
     "id": "5c924c1c8b4c41159d78d937",
     "name": "Département du Morbihan",
     "slug": "departement-du-morbihan",
+    "type": null
+  },
+  {
+    "id": "558e9d43c751df75fea453d1",
+    "name": "Direction Départementale des Territoires de Loir-et-Cher",
+    "slug": "direction-departementale-des-territoires-de-loir-et-cher",
+    "type": null
+  },
+  {
+    "id": "53fd1263a3a729390ba568a4",
+    "name": "Eurométropole de Metz",
+    "slug": "eurometropole-de-metz",
+    "type": null
+  },
+  {
+    "id": "5ddc086f634f41190d4c1006",
+    "name": "Géo2France",
+    "slug": "geo2france",
     "type": null
   },
   {
@@ -360,6 +390,12 @@
     "type": null
   },
   {
+    "id": "5df935d8634f414e69469492",
+    "name": "Région Hauts-de-France",
+    "slug": "region-hauts-de-france",
+    "type": null
+  },
+  {
     "id": "534fffa8a3a7292c64a780c8",
     "name": "Région Île-de-France",
     "slug": "region-ile-de-france",
@@ -441,6 +477,12 @@
     "id": "566594f388ee38738640355c",
     "name": "Ville d'Antibes",
     "slug": "ville-dantibes",
+    "type": null
+  },
+  {
+    "id": "5fa50f45bd278f782c7d3e31",
+    "name": "Ville d'Argenteuil",
+    "slug": "ville-dargenteuil",
     "type": null
   },
   {
