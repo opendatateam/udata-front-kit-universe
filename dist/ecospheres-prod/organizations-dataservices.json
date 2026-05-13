@@ -24,6 +24,12 @@
     "type": "EPA"
   },
   {
+    "id": "5b1138d9c751df2618dc4662",
+    "name": "Agence ORE",
+    "slug": "agence-ore-3",
+    "type": "Association"
+  },
+  {
     "id": "66601e784637c6bfa87b06ca",
     "name": "Bureau de Recherches Géologiques et Minières",
     "slug": "bureau-de-recherches-geologiques-et-minieres",
