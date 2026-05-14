@@ -42,6 +42,12 @@
     "type": null
   },
   {
+    "id": "534fff5ba3a7292c64a77d19",
+    "name": "Brest métropole",
+    "slug": "brest-metropole",
+    "type": null
+  },
+  {
     "id": "636cd3d7336141e7d0577f56",
     "name": "Cartographie Nationale des lieux de médiation numérique",
     "slug": "cartographie-nationale-des-lieux-de-mediation-numerique",
@@ -51,6 +57,12 @@
     "id": "552e97f3c751df636537dddb",
     "name": "Centre National des Œuvres Universitaires et Scolaires",
     "slug": "centre-national-des-oeuvres-universitaires-et-scolaires",
+    "type": null
+  },
+  {
+    "id": "670521e8d95df97ada2ffbd9",
+    "name": "CipherBliss EI",
+    "slug": "cipherbliss-ei",
     "type": null
   },
   {
@@ -123,6 +135,24 @@
     "id": "5bb1c7e4634f412a95dff6b9",
     "name": "Conseil départemental de l'Isère",
     "slug": "conseil-departemental-de-lisere-1",
+    "type": null
+  },
+  {
+    "id": "582a045088ee3875cec65bb4",
+    "name": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data",
+    "slug": "conseil-departemental-de-la-haute-garonne-haute-garonne-open-data",
+    "type": null
+  },
+  {
+    "id": "588a04bb88ee380d229b81a4",
+    "name": "Conseil départemental du Puy-de-Dôme",
+    "slug": "conseil-departemental-du-puy-de-dome",
+    "type": null
+  },
+  {
+    "id": "5e32cef58b4c411011bd3bab",
+    "name": "Département de Maine-et-Loire",
+    "slug": "departement-de-maine-et-loire",
     "type": null
   },
   {
@@ -237,6 +267,12 @@
     "id": "5d1db3df8b4c416509fd0870",
     "name": "Mairie de Cannes",
     "slug": "mairie-de-cannes",
+    "type": null
+  },
+  {
+    "id": "601ab7b9d3aff74e6fc4ea68",
+    "name": "Mairie de Lille",
+    "slug": "mairie-de-lille",
     "type": null
   },
   {
@@ -456,6 +492,12 @@
     "type": null
   },
   {
+    "id": "68e3b9ef0e29271b26914921",
+    "name": "SYTRAL Mobilités",
+    "slug": "sytral-mobilites",
+    "type": null
+  },
+  {
     "id": "534fffb3a3a7292c64a78129",
     "name": "Toulouse métropole",
     "slug": "toulouse-metropole",
@@ -510,6 +552,12 @@
     "type": null
   },
   {
+    "id": "534fffb8a3a7292c64a78149",
+    "name": "Ville de Digne-les-Bains",
+    "slug": "ville-de-digne-les-bains",
+    "type": null
+  },
+  {
     "id": "5733038988ee38472ed1b934",
     "name": "Ville de Grenoble",
     "slug": "ville-de-grenoble",
@@ -543,6 +591,12 @@
     "id": "534fffb8a3a7292c64a7814c",
     "name": "Ville de Marseille",
     "slug": "ville-de-marseille",
+    "type": null
+  },
+  {
+    "id": "594be11888ee38743d67051b",
+    "name": "Ville de Nevers",
+    "slug": "ville-de-nevers",
     "type": null
   },
   {
