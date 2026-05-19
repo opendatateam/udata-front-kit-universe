@@ -36,6 +36,12 @@
     "type": null
   },
   {
+    "id": "5b9f70f18b4c4101942a27ff",
+    "name": "BlaBlaCar",
+    "slug": "blablacar",
+    "type": null
+  },
+  {
     "id": "5b0d11f688ee382af4b18c95",
     "name": "Bordeaux Métropole",
     "slug": "bordeaux-metropole",
@@ -48,6 +54,12 @@
     "type": null
   },
   {
+    "id": "673de11b1bf50e99a8e2a1dc",
+    "name": "Caluire-et-Cuire",
+    "slug": "caluire-et-cuire",
+    "type": null
+  },
+  {
     "id": "636cd3d7336141e7d0577f56",
     "name": "Cartographie Nationale des lieux de médiation numérique",
     "slug": "cartographie-nationale-des-lieux-de-mediation-numerique",
@@ -57,6 +69,12 @@
     "id": "552e97f3c751df636537dddb",
     "name": "Centre National des Œuvres Universitaires et Scolaires",
     "slug": "centre-national-des-oeuvres-universitaires-et-scolaires",
+    "type": null
+  },
+  {
+    "id": "673de1d6077e077ac5142f49",
+    "name": "Champagne-au-Mont-d'Or",
+    "slug": "champagne-au-mont-dor",
     "type": null
   },
   {
@@ -150,6 +168,18 @@
     "type": null
   },
   {
+    "id": "673de323d0b31b3871d02370",
+    "name": "Dardilly",
+    "slug": "dardilly",
+    "type": null
+  },
+  {
+    "id": "646b7187b50b2a93b1ae3d45",
+    "name": "data.gouv.fr",
+    "slug": "data-gouv-fr",
+    "type": null
+  },
+  {
     "id": "5e32cef58b4c411011bd3bab",
     "name": "Département de Maine-et-Loire",
     "slug": "departement-de-maine-et-loire",
@@ -165,6 +195,12 @@
     "id": "544e1b0888ee38289ae1ed05",
     "name": "Département des Hauts-de-Seine",
     "slug": "departement-des-hauts-de-seine",
+    "type": null
+  },
+  {
+    "id": "5bd96f848b4c415ecb7a9a8b",
+    "name": "Département du Calvados",
+    "slug": "departement-du-calvados",
     "type": null
   },
   {
@@ -186,6 +222,12 @@
     "type": null
   },
   {
+    "id": "673de2dbd0b31b3871d0236f",
+    "name": "Ecully",
+    "slug": "ecully",
+    "type": null
+  },
+  {
     "id": "53fd1263a3a729390ba568a4",
     "name": "Eurométropole de Metz",
     "slug": "eurometropole-de-metz",
@@ -201,6 +243,12 @@
     "id": "60759b5d1136de3965b997ae",
     "name": "Géofoncier",
     "slug": "geofoncier",
+    "type": null
+  },
+  {
+    "id": "673de38062b721f10fb33765",
+    "name": "Givors",
+    "slug": "givors",
     "type": null
   },
   {
@@ -255,6 +303,12 @@
     "id": "59bfa079c751df6dad38dc0d",
     "name": "Le Havre Seine Métropole",
     "slug": "communaute-de-lagglomeration-havraise",
+    "type": null
+  },
+  {
+    "id": "673de3f6e8d96733bf01672d",
+    "name": "Limonest",
+    "slug": "limonest",
     "type": null
   },
   {
@@ -342,6 +396,12 @@
     "type": null
   },
   {
+    "id": "673de5e1b60f1b29aaf6c1d6",
+    "name": "Mions",
+    "slug": "mions",
+    "type": null
+  },
+  {
     "id": "5be06c41634f4158c956b300",
     "name": "Mulhouse Alsace Agglomération",
     "slug": "mulhouse-alsace-agglomeration",
@@ -357,6 +417,12 @@
     "id": "534fff98a3a7292c64a78012",
     "name": "Nantes Métropole",
     "slug": "nantes-metropole",
+    "type": null
+  },
+  {
+    "id": "673de661efc144df57565bd3",
+    "name": "Neuville-sur-Saône",
+    "slug": "neuville-sur-saone",
     "type": null
   },
   {
@@ -438,6 +504,12 @@
     "type": null
   },
   {
+    "id": "5a153f5688ee3829e2fbf39f",
+    "name": "Région Occitanie / Pyrénées Méditerranée",
+    "slug": "region-occitanie",
+    "type": null
+  },
+  {
     "id": "580735be88ee3814295ff490",
     "name": "Rennes Métropole en accès libre",
     "slug": "rennes-metropole-en-acces-libre-1",
@@ -447,6 +519,36 @@
     "id": "56f54580c751df65ebc485cb",
     "name": "Saemes ",
     "slug": "saemes",
+    "type": null
+  },
+  {
+    "id": "673de750e4bae5e386dafc33",
+    "name": "Saint-Cyr-au-Mont-d'Or",
+    "slug": "saint-cyr-au-mont-dor",
+    "type": null
+  },
+  {
+    "id": "673de7a9142cc1d7df599a95",
+    "name": "Saint-Didier-au-Mont-d'Or",
+    "slug": "saint-didier-au-mont-dor",
+    "type": null
+  },
+  {
+    "id": "5c34c63a8b4c41718c8b236f",
+    "name": "Saint-Etienne Métropole",
+    "slug": "saint-etienne-metropole-1",
+    "type": null
+  },
+  {
+    "id": "673de806a8fa50f4697a8a1a",
+    "name": "Saint-Genis-Laval",
+    "slug": "saint-genis-laval",
+    "type": null
+  },
+  {
+    "id": "5a7c19f5c751df3e55b0c321",
+    "name": "Saint-Louis Agglomération",
+    "slug": "saint-louis-agglomeration",
     "type": null
   },
   {
@@ -465,6 +567,12 @@
     "id": "5bb32d078b4c412462c28955",
     "name": "SAINT-QUENTIN-EN-YVELINES",
     "slug": "saint-quentin-en-yvelines",
+    "type": null
+  },
+  {
+    "id": "673de854ea1155f6ee431e2f",
+    "name": "Sathonay-Camp",
+    "slug": "sathonay-camp",
     "type": null
   },
   {
@@ -510,9 +618,21 @@
     "type": null
   },
   {
+    "id": "65f2e13a41f2ef9a76ff6ed5",
+    "name": "Troyes Champagne Métropole",
+    "slug": "troyes-champagne-metropole",
+    "type": null
+  },
+  {
     "id": "5c09189f8b4c414a8d02298e",
     "name": "Twisto",
     "slug": "twisto",
+    "type": null
+  },
+  {
+    "id": "673de9514329cc28ede63d7d",
+    "name": "Vaulx-en-Velin",
+    "slug": "vaulx-en-velin",
     "type": null
   },
   {
@@ -588,6 +708,12 @@
     "type": null
   },
   {
+    "id": "673de50f3d4b5583f9421108",
+    "name": "Ville de Lyon",
+    "slug": "ville-de-lyon",
+    "type": null
+  },
+  {
     "id": "534fffb8a3a7292c64a7814c",
     "name": "Ville de Marseille",
     "slug": "ville-de-marseille",
@@ -624,6 +750,12 @@
     "type": null
   },
   {
+    "id": "6095142a84c45b36441511eb",
+    "name": "Ville de Soissons",
+    "slug": "ville-de-soissons",
+    "type": null
+  },
+  {
     "id": "672cca10f8b4b813c263fbca",
     "name": "Ville de Suresnes",
     "slug": "ville-de-suresnes",
@@ -633,6 +765,12 @@
     "id": "5a3a7cd8c751df3092aea45a",
     "name": "Ville du Havre",
     "slug": "ville-du-havre",
+    "type": null
+  },
+  {
+    "id": "673de99f7db43e52fec9157c",
+    "name": "Villeurbanne",
+    "slug": "villeurbanne",
     "type": null
   }
 ]
