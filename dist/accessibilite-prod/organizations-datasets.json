@@ -90,6 +90,12 @@
     "type": null
   },
   {
+    "id": "537d58eea3a72973a2dc026c",
+    "name": "Collectivité de Corse",
+    "slug": "collectivite-territoriale-de-corse",
+    "type": null
+  },
+  {
     "id": "5bec4aea8b4c416395a5e99e",
     "name": "Communauté d'Agglomération de l'Auxerrois",
     "slug": "communaute-dagglomeration-de-lauxerrois",
@@ -105,6 +111,24 @@
     "id": "589d6e22c751df0ff0ae0a65",
     "name": "Communauté d'Agglomération du Grand Cahors",
     "slug": "communaute-dagglomeration-du-grand-cahors",
+    "type": null
+  },
+  {
+    "id": "60ae45c11807e6d76ba47e50",
+    "name": "Communauté d'Agglomération du Niortais",
+    "slug": "communaute-dagglomeration-du-niortais",
+    "type": null
+  },
+  {
+    "id": "5d3193bb634f4103f485c9f9",
+    "name": "Communauté d'agglomération du Val de Fensch",
+    "slug": "communaute-dagglomeration-du-val-de-fensch",
+    "type": null
+  },
+  {
+    "id": "65a7d39dc47137621b04c768",
+    "name": "Communauté d'Agglomération Gap-Tallard-Durance",
+    "slug": "communaute-dagglomeration-gap-tallard-durance",
     "type": null
   },
   {
@@ -132,9 +156,33 @@
     "type": null
   },
   {
+    "id": "68ff4e0654fe6900753c70a9",
+    "name": "Communauté de communes Coeur de Nacre",
+    "slug": "communaute-de-communes-coeur-de-nacre",
+    "type": null
+  },
+  {
+    "id": "60a3c21d90cf982bc6f80e8d",
+    "name": "Communauté de Communes du Briançonnais",
+    "slug": "communaute-de-communes-du-brianconnais",
+    "type": null
+  },
+  {
+    "id": "699db4957b7fe2c1fadbb46a",
+    "name": "Communauté de communes Terres du Haut Berry",
+    "slug": "communaute-de-communes-terres-du-haut-berry",
+    "type": null
+  },
+  {
     "id": "5b17dbeb88ee3869a59ebdca",
     "name": "Commune d'Anglet",
     "slug": "mairie-danglet",
+    "type": null
+  },
+  {
+    "id": "641835485c0c952ce4e3fe24",
+    "name": "Commune de Fitou",
+    "slug": "commune-de-fitou",
     "type": null
   },
   {
@@ -150,6 +198,12 @@
     "type": null
   },
   {
+    "id": "69047152ee0fd47ca0156148",
+    "name": "Commune de Talizat",
+    "slug": "commune-de-talizat",
+    "type": null
+  },
+  {
     "id": "5bb1c7e4634f412a95dff6b9",
     "name": "Conseil départemental de l'Isère",
     "slug": "conseil-departemental-de-lisere-1",
@@ -159,6 +213,24 @@
     "id": "582a045088ee3875cec65bb4",
     "name": "Conseil départemental de la Haute-Garonne - Haute-Garonne Open Data",
     "slug": "conseil-departemental-de-la-haute-garonne-haute-garonne-open-data",
+    "type": null
+  },
+  {
+    "id": "5919a313c751df1c22411168",
+    "name": "Conseil départemental de la Somme",
+    "slug": "conseil-departemental-de-la-somme",
+    "type": null
+  },
+  {
+    "id": "5ab9f242c751df2f936031d6",
+    "name": "Conseil Départemental des Pyrénées Orientales",
+    "slug": "conseil-departemental-des-pyrenees-orientales",
+    "type": null
+  },
+  {
+    "id": "5eb95f27f78218752ef0f8ea",
+    "name": "Conseil départemental des Pyrénées-Atlantiques",
+    "slug": "conseil-departemental-des-pyrenees-atlantiques",
     "type": null
   },
   {
@@ -180,9 +252,39 @@
     "type": null
   },
   {
+    "id": "58aeeba588ee381d127638ee",
+    "name": "DDT Haute-Marne",
+    "slug": "ddt-haute-marne",
+    "type": null
+  },
+  {
+    "id": "5a216283c751df6333108428",
+    "name": "Département de l'Aube",
+    "slug": "departement-de-laube",
+    "type": null
+  },
+  {
+    "id": "68906ed5aef2ae86df604eae",
+    "name": "Département de l'Eure",
+    "slug": "departement-de-leure",
+    "type": null
+  },
+  {
+    "id": "66dedd170a2a2decfee76c9d",
+    "name": "Département de la Haute-Vienne",
+    "slug": "departement-de-la-haute-vienne",
+    "type": null
+  },
+  {
     "id": "5e32cef58b4c411011bd3bab",
     "name": "Département de Maine-et-Loire",
     "slug": "departement-de-maine-et-loire",
+    "type": null
+  },
+  {
+    "id": "5e00c7456f444104766e92d6",
+    "name": "Département des Alpes-Maritimes",
+    "slug": "departement-des-alpes-maritimes",
     "type": null
   },
   {
@@ -222,6 +324,12 @@
     "type": null
   },
   {
+    "id": "57275bd288ee387fd5a19f12",
+    "name": "Direction régionale de l'Environnement, de l'Aménagement et du Logement de Normandie",
+    "slug": "direction-regionale-de-lenvironnement-de-lamenagement-et-du-logement-de-normandie",
+    "type": null
+  },
+  {
     "id": "673de2dbd0b31b3871d0236f",
     "name": "Ecully",
     "slug": "ecully",
@@ -255,6 +363,12 @@
     "id": "5afd7ce888ee387d9f4e136f",
     "name": "Grand Belfort Communauté d'Agglomération",
     "slug": "grand-belfort-communaute-dagglomeration",
+    "type": null
+  },
+  {
+    "id": "59196e9088ee38471c78dac6",
+    "name": "GRAND BESANCON METROPOLE",
+    "slug": "grand-besancon-metropole",
     "type": null
   },
   {
@@ -297,6 +411,12 @@
     "id": "60a4cc2104da0aa02e09dfe1",
     "name": "Lambersart",
     "slug": "lambersart",
+    "type": null
+  },
+  {
+    "id": "5c826f9f8b4c413f97010cae",
+    "name": "Le Grand Chalon",
+    "slug": "zoom-1",
     "type": null
   },
   {
@@ -411,6 +531,12 @@
     "id": "57e3e31888ee38155a5ff490",
     "name": "Musée d'art et d'histoire - Ville de Saint-Brieuc",
     "slug": "musee-dart-et-dhistoire-ville-de-saint-brieuc",
+    "type": null
+  },
+  {
+    "id": "6444234cc3c7051c08ceaba5",
+    "name": "Nant Résilience ",
+    "slug": "nant-resilience",
     "type": null
   },
   {
@@ -540,6 +666,12 @@
     "type": null
   },
   {
+    "id": "672a1f89232f3989d9d7c7e9",
+    "name": "Saint-Flour Communauté",
+    "slug": "saint-flour-communaute",
+    "type": null
+  },
+  {
     "id": "673de806a8fa50f4697a8a1a",
     "name": "Saint-Genis-Laval",
     "slug": "saint-genis-laval",
@@ -594,9 +726,21 @@
     "type": null
   },
   {
+    "id": "63495542c46344b3b83adbdd",
+    "name": "Syndicat des mobilités des territoires de l'aire métropolitaine lyonnaise",
+    "slug": "syndicat-des-mobilites-des-territoires-de-laire-metropolitaine-lyonnaise",
+    "type": null
+  },
+  {
     "id": "575fc7f0c751df0e1dac31a0",
     "name": "Syndicat Mixte des Mobilités de l'Aire Grenobloise",
     "slug": "syndicat-mixte-des-mobilites-de-laire-grenobloise",
+    "type": null
+  },
+  {
+    "id": "67aa26632f8dc1e316e7c3d2",
+    "name": "Syndicat Mixte pour l'Aménagement du Seuil du Poitou",
+    "slug": "syndicat-mixte-pour-lamenagement-du-seuil-du-poitou",
     "type": null
   },
   {
@@ -771,6 +915,12 @@
     "id": "673de99f7db43e52fec9157c",
     "name": "Villeurbanne",
     "slug": "villeurbanne",
+    "type": null
+  },
+  {
+    "id": "6597b8dd306f04cc71e208d1",
+    "name": "VINCI Autoroutes",
+    "slug": "vinci-autoroutes",
     "type": null
   }
 ]
