@@ -36,6 +36,12 @@
     "type": null
   },
   {
+    "id": "60538faf323d30cfb8ec3ec0",
+    "name": "Baulon",
+    "slug": "baulon",
+    "type": null
+  },
+  {
     "id": "5b9f70f18b4c4101942a27ff",
     "name": "BlaBlaCar",
     "slug": "blablacar",
@@ -90,6 +96,12 @@
     "type": null
   },
   {
+    "id": "537d58eea3a72973a2dc026c",
+    "name": "Collectivité de Corse",
+    "slug": "collectivite-territoriale-de-corse",
+    "type": null
+  },
+  {
     "id": "5bec4aea8b4c416395a5e99e",
     "name": "Communauté d'Agglomération de l'Auxerrois",
     "slug": "communaute-dagglomeration-de-lauxerrois",
@@ -117,6 +129,12 @@
     "id": "5d3193bb634f4103f485c9f9",
     "name": "Communauté d'agglomération du Val de Fensch",
     "slug": "communaute-dagglomeration-du-val-de-fensch",
+    "type": null
+  },
+  {
+    "id": "65a7d39dc47137621b04c768",
+    "name": "Communauté d'Agglomération Gap-Tallard-Durance",
+    "slug": "communaute-dagglomeration-gap-tallard-durance",
     "type": null
   },
   {
@@ -162,6 +180,12 @@
     "type": null
   },
   {
+    "id": "676960d41449a7108fdf93de",
+    "name": "COMMUNAUTE DE COMMUNES VENDEE SEVRE AUTISE",
+    "slug": "communaute-de-communes-vendee-sevre-autise",
+    "type": null
+  },
+  {
     "id": "5b17dbeb88ee3869a59ebdca",
     "name": "Commune d'Anglet",
     "slug": "mairie-danglet",
@@ -180,6 +204,12 @@
     "type": null
   },
   {
+    "id": "637c9731c729ddbe1039636b",
+    "name": "Commune de SAINT-NABORD",
+    "slug": "commune-de-saint-nabord",
+    "type": null
+  },
+  {
     "id": "5c6303468b4c414d6ae2ebcd",
     "name": "Commune de Saint-Paul-lès-Dax",
     "slug": "commune-de-saint-paul-les-dax",
@@ -189,6 +219,12 @@
     "id": "69047152ee0fd47ca0156148",
     "name": "Commune de Talizat",
     "slug": "commune-de-talizat",
+    "type": null
+  },
+  {
+    "id": "58b3e7e588ee3814c598d150",
+    "name": "Conseil départemental d'Eure-et-Loir",
+    "slug": "conseil-departemental-deure-et-loir",
     "type": null
   },
   {
@@ -258,6 +294,12 @@
     "type": null
   },
   {
+    "id": "66dedd170a2a2decfee76c9d",
+    "name": "Département de la Haute-Vienne",
+    "slug": "departement-de-la-haute-vienne",
+    "type": null
+  },
+  {
     "id": "5e32cef58b4c411011bd3bab",
     "name": "Département de Maine-et-Loire",
     "slug": "departement-de-maine-et-loire",
@@ -291,6 +333,12 @@
     "id": "5bd2e3918b4c413473d1b144",
     "name": "Département du Doubs",
     "slug": "departement-du-doubs",
+    "type": null
+  },
+  {
+    "id": "57d90ef4c751df44fb79df72",
+    "name": "Département du Loiret",
+    "slug": "departement-du-loiret",
     "type": null
   },
   {
@@ -411,6 +459,12 @@
     "id": "673de3f6e8d96733bf01672d",
     "name": "Limonest",
     "slug": "limonest",
+    "type": null
+  },
+  {
+    "id": "65c529eb68a5b5420355c5c4",
+    "name": "Loir en Vallee",
+    "slug": "loir-en-vallee",
     "type": null
   },
   {
@@ -675,6 +729,12 @@
     "id": "5733009988ee3843a3d1b934",
     "name": "Saint-Nazaire agglo - La CARENE",
     "slug": "saint-nazaire-agglo-la-carene",
+    "type": null
+  },
+  {
+    "id": "534fffaea3a7292c64a780fb",
+    "name": "Saint-Quentin (Aisne)",
+    "slug": "saint-quentin-aisne",
     "type": null
   },
   {
