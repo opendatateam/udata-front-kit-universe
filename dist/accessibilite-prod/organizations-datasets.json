@@ -60,6 +60,12 @@
     "type": null
   },
   {
+    "id": "5fa985066333fad0e735c985",
+    "name": "Caisse des Dépôts",
+    "slug": "caisse-des-depots-1",
+    "type": null
+  },
+  {
     "id": "673de11b1bf50e99a8e2a1dc",
     "name": "Caluire-et-Cuire",
     "slug": "caluire-et-cuire",
@@ -303,6 +309,12 @@
     "id": "66dedd170a2a2decfee76c9d",
     "name": "Département de la Haute-Vienne",
     "slug": "departement-de-la-haute-vienne",
+    "type": null
+  },
+  {
+    "id": "5e281d5b634f417c0c54ae2f",
+    "name": "Département de la Seine-Maritime",
+    "slug": "departement-de-la-seine-maritime",
     "type": null
   },
   {
