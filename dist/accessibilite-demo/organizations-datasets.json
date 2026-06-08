@@ -60,6 +60,12 @@
     "type": null
   },
   {
+    "id": "5fa985066333fad0e735c985",
+    "name": "Caisse des Dépôts",
+    "slug": "caisse-des-depots-1",
+    "type": null
+  },
+  {
     "id": "673de11b1bf50e99a8e2a1dc",
     "name": "Caluire-et-Cuire",
     "slug": "caluire-et-cuire",
@@ -135,6 +141,12 @@
     "id": "65a7d39dc47137621b04c768",
     "name": "Communauté d'Agglomération Gap-Tallard-Durance",
     "slug": "communaute-dagglomeration-gap-tallard-durance",
+    "type": null
+  },
+  {
+    "id": "613f4fec09785810493392f5",
+    "name": "Communauté d'agglomération Le Cotentin",
+    "slug": "communaute-dagglomeration-le-cotentin",
     "type": null
   },
   {
@@ -300,6 +312,12 @@
     "type": null
   },
   {
+    "id": "5e281d5b634f417c0c54ae2f",
+    "name": "Département de la Seine-Maritime",
+    "slug": "departement-de-la-seine-maritime",
+    "type": null
+  },
+  {
     "id": "5e32cef58b4c411011bd3bab",
     "name": "Département de Maine-et-Loire",
     "slug": "departement-de-maine-et-loire",
@@ -315,6 +333,12 @@
     "id": "54aff788c751df39e138127d",
     "name": "Département des Côtes d'Armor",
     "slug": "departement-des-cotes-darmor",
+    "type": null
+  },
+  {
+    "id": "5c3f1ca2634f411d2aef4ddb",
+    "name": "Département des Hautes-Pyrénées",
+    "slug": "departement-des-hautes-pyrenees",
     "type": null
   },
   {
@@ -423,6 +447,12 @@
     "id": "5e1b13418b4c4158c8eb6c82",
     "name": "Jungle Bus",
     "slug": "jungle-bus",
+    "type": null
+  },
+  {
+    "id": "5b44d8b088ee38554f15875b",
+    "name": "La Drôme",
+    "slug": "la-drome",
     "type": null
   },
   {
@@ -543,6 +573,12 @@
     "id": "534fff94a3a7292c64a77fc1",
     "name": "Ministère des Solidarités et de la Santé",
     "slug": "ministere-des-solidarites-et-de-la-sante",
+    "type": null
+  },
+  {
+    "id": "534fff8fa3a7292c64a77f22",
+    "name": "Ministères de l'Éducation nationale",
+    "slug": "ministeres-de-leducation-nationale",
     "type": null
   },
   {
