@@ -24,12 +24,6 @@
     "type": null
   },
   {
-    "id": "60f7d111a6874047ef5c56f5",
-    "name": "Avignon",
-    "slug": "avignon",
-    "type": null
-  },
-  {
     "id": "534fff5aa3a7292c64a77d09",
     "name": "Bibliothèque nationale de France",
     "slug": "bibliotheque-nationale-de-france",
@@ -237,18 +231,6 @@
     "id": "534fff68a3a7292c64a77d8d",
     "name": "Département de Saône-et-Loire",
     "slug": "conseil-general-de-saone-et-loire-cg71",
-    "type": null
-  },
-  {
-    "id": "62344583fb72d30231b482f5",
-    "name": "Département des Alpes de Haute-Provence",
-    "slug": "departement-des-alpes-de-haute-provence",
-    "type": null
-  },
-  {
-    "id": "5e00c7456f444104766e92d6",
-    "name": "Département des Alpes-Maritimes",
-    "slug": "departement-des-alpes-maritimes",
     "type": null
   },
   {
