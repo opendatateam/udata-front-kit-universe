@@ -1,12 +1,12 @@
 API for https://www.data.gouv.fr ready.
-Starting at Sun Jun 14 08:50:42 2026.
+Starting at Mon Jun 15 11:24:57 2026.
 Processing universe topic 'univers-ecospheres'.
 Found 208 entries in grist.
-Found 28347 datasets matching the upcoming universe.
-Found 28358 datasets currently in the universe.
+Found 28348 datasets matching the upcoming universe.
+Found 28347 datasets currently in the universe.
 Updating topic:
-- Adding 5 datasets...
-- Deleting 16 datasets...
+- Adding 4 datasets...
+- Deleting 3 datasets...
 Generating output file dist/ecospheres-prod/organizations-datasets.json with 195 entries...
 Found 159 dataservices matching the upcoming universe.
 Found 159 dataservices currently in the universe.
@@ -16,4 +16,4 @@ Updating topic:
 Generating output file dist/ecospheres-prod/organizations-dataservices.json with 32 entries...
 Found 21 bouquets with the universe tag.
 Generating output file dist/ecospheres-prod/organizations-bouquets.json with 18 entries...
-Done at Sun Jun 14 08:54:48 2026 in 246 seconds.
+Done at Mon Jun 15 11:29:52 2026 in 295 seconds.
