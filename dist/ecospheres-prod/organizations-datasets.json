@@ -48,6 +48,12 @@
     "type": "EPA"
   },
   {
+    "id": "551d00efc751df60500cd89f",
+    "name": "Agence nationale des fréquences",
+    "slug": "agence-nationale-des-frequences",
+    "type": null
+  },
+  {
     "id": "56bca517c751df265b9f9deb",
     "name": "Agence nationale pour la gestion des déchets radioactifs",
     "slug": "agence-nationale-pour-la-gestion-des-dechets-radioactifs",
