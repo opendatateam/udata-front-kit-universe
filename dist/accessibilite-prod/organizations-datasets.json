@@ -18,6 +18,12 @@
     "type": null
   },
   {
+    "id": "5bfd11e4634f4170344a961b",
+    "name": "Agglomération Montargoise Et rives du loing",
+    "slug": "agglomeration-montargoise-et-rives-du-loing",
+    "type": null
+  },
+  {
     "id": "538346d6a3a72906c7ec5c36",
     "name": "Angers Loire Métropole",
     "slug": "angers-loire-metropole",
@@ -27,6 +33,12 @@
     "id": "68ac6b1bac27d092cf43d24e",
     "name": "APF FRANCE HANDICAP START UP STUDIO",
     "slug": "apf-france-handicap-start-up-studio",
+    "type": null
+  },
+  {
+    "id": "60a51649cb47626d4cc74bf8",
+    "name": "Armor Argoat Mobilité • Guingamp-Paimpol Mobilité",
+    "slug": "armor-argoat-mobilite-guingamp-paimpol-mobilite",
     "type": null
   },
   {
@@ -108,6 +120,12 @@
     "type": null
   },
   {
+    "id": "5bf67a998b4c417eae692920",
+    "name": "CHATEAUROUX METROPOLE",
+    "slug": "chateauroux-metropole",
+    "type": null
+  },
+  {
     "id": "670521e8d95df97ada2ffbd9",
     "name": "CipherBliss EI",
     "slug": "cipherbliss-ei",
@@ -132,6 +150,18 @@
     "type": null
   },
   {
+    "id": "63529737b37f7c530eba2af9",
+    "name": "Communauté d'Agglomération de Bastia",
+    "slug": "communaute-dagglomeration-de-bastia",
+    "type": null
+  },
+  {
+    "id": "642d33c6745eff1ffc31554c",
+    "name": "Communauté d'Agglomération de Cambrai",
+    "slug": "communaute-dagglomeration-de-cambrai",
+    "type": null
+  },
+  {
     "id": "5bec4aea8b4c416395a5e99e",
     "name": "Communauté d'Agglomération de l'Auxerrois",
     "slug": "communaute-dagglomeration-de-lauxerrois",
@@ -144,9 +174,21 @@
     "type": null
   },
   {
+    "id": "66278a8075d8285af2d38b65",
+    "name": "COMMUNAUTE D'AGGLOMERATION DES 2 BAIES EN MONTREUILLOIS",
+    "slug": "communaute-dagglomeration-des-2-baies-en-montreuillois",
+    "type": null
+  },
+  {
     "id": "5970a76d88ee38216d112aa1",
     "name": "Communauté d'agglomération du Boulonnais",
     "slug": "communaute-dagglomeration-du-boulonnais",
+    "type": null
+  },
+  {
+    "id": "67121697b7b161e39897679f",
+    "name": "Communauté d'Agglomération du Caudrésis et du Catésis",
+    "slug": "communaute-dagglomeration-du-caudresis-et-du-catesis",
     "type": null
   },
   {
@@ -174,6 +216,12 @@
     "type": null
   },
   {
+    "id": "5cd531978b4c41605df23b89",
+    "name": "Communauté d'Agglomération du Puy-en-Velay",
+    "slug": "communaute-dagglomeration-du-puy-en-velay-1",
+    "type": null
+  },
+  {
     "id": "5d3193bb634f4103f485c9f9",
     "name": "Communauté d'agglomération du Val de Fensch",
     "slug": "communaute-dagglomeration-du-val-de-fensch",
@@ -183,6 +231,12 @@
     "id": "65a7d39dc47137621b04c768",
     "name": "Communauté d'Agglomération Gap-Tallard-Durance",
     "slug": "communaute-dagglomeration-gap-tallard-durance",
+    "type": null
+  },
+  {
+    "id": "5bac83c9634f4106bc21d00b",
+    "name": "Communauté d'Agglomération Hérault Méditerranée",
+    "slug": "communaute-dagglomeration-herault-mediterranee",
     "type": null
   },
   {
@@ -450,9 +504,21 @@
     "type": null
   },
   {
+    "id": "5911d508c751df168e15a89f",
+    "name": "Durance Luberon Verdon Agglomération",
+    "slug": "durance-luberon-verdon-agglomeration",
+    "type": null
+  },
+  {
     "id": "673de2dbd0b31b3871d0236f",
     "name": "Ecully",
     "slug": "ecully",
+    "type": null
+  },
+  {
+    "id": "5ff574f78704b014b0778637",
+    "name": "ENVIA",
+    "slug": "envia",
     "type": null
   },
   {
@@ -636,6 +702,12 @@
     "type": null
   },
   {
+    "id": "5c0f89d4634f41198d4a53e8",
+    "name": "Mâconnais Beaujolais Agglomération",
+    "slug": "maconnais-beaujolais-agglomeration",
+    "type": null
+  },
+  {
     "id": "5d1db3df8b4c416509fd0870",
     "name": "Mairie de Cannes",
     "slug": "mairie-de-cannes",
@@ -804,6 +876,12 @@
     "type": null
   },
   {
+    "id": "5be2dd80634f41472fc9de00",
+    "name": "Ondéa - COMPAGNIE DE TRANSPORT DU LAC DU BOURGET-CTLB",
+    "slug": "grand-lac-communaute-dagglomeration-du-lac-du-bourget",
+    "type": null
+  },
+  {
     "id": "534fffa0a3a7292c64a7806b",
     "name": "OpenStreetMap",
     "slug": "openstreetmap",
@@ -840,6 +918,12 @@
     "type": null
   },
   {
+    "id": "5dc41b7b634f416be9b33705",
+    "name": "PASTEL",
+    "slug": "pastel",
+    "type": null
+  },
+  {
     "id": "5d23aa818b4c416697d58dd2",
     "name": "Pau Béarn Pyrénées Mobilités",
     "slug": "pau-bearn-pyrenees-mobilites",
@@ -867,6 +951,12 @@
     "id": "6756af045abd9e3866d08ece",
     "name": "Quimperlé Communauté",
     "slug": "quimperle-communaute",
+    "type": null
+  },
+  {
+    "id": "59679365c751df12bcc44bba",
+    "name": "REDON Agglomération",
+    "slug": "redon-agglomeration",
     "type": null
   },
   {
@@ -1050,6 +1140,12 @@
     "type": null
   },
   {
+    "id": "5ab217b188ee387f2fb8d2c9",
+    "name": "Société d'économie Mixte des Transports Montalbanais",
+    "slug": "societe-deconomie-mixte-des-transports-montalbanais",
+    "type": null
+  },
+  {
     "id": "64dca5a2c4d8d15d45d88734",
     "name": "SPL Estival/ Cirest ",
     "slug": "spl-estival-cirest",
@@ -1152,6 +1248,12 @@
     "type": null
   },
   {
+    "id": "693a8ee2dd89c7ae77190cb9",
+    "name": "Transdev CapAtlantique Mobilités • Lila Presqu'île",
+    "slug": "transdev-capatlantique-mobilites-lila-presquile",
+    "type": null
+  },
+  {
     "id": "5a6f24a4c751df613f36c422",
     "name": "Transdev GMVA Mobilités • Kicéo",
     "slug": "transdev-gmva-mobilites-kiceo",
@@ -1167,6 +1269,18 @@
     "id": "5ef0721566bea174e2d08b2c",
     "name": "Transdev SMA Mobilités • MAT",
     "slug": "transdev-sma-mobilites-mat",
+    "type": null
+  },
+  {
+    "id": "6634f62b1fbe3b5eaf671e5e",
+    "name": "Transport du Grand Longwy",
+    "slug": "transport-du-grand-longwy",
+    "type": null
+  },
+  {
+    "id": "5f02d473cb3e8d0f72da7ac5",
+    "name": "Transports de l'Agglomération Châtelleraudaise",
+    "slug": "transports-de-lagglomeration-chatelleraudaise",
     "type": null
   },
   {
@@ -1197,6 +1311,12 @@
     "id": "673de9514329cc28ede63d7d",
     "name": "Vaulx-en-Velin",
     "slug": "vaulx-en-velin",
+    "type": null
+  },
+  {
+    "id": "5c8f64368b4c4122db3a2b1d",
+    "name": "VICHY COMMUNAUTE",
+    "slug": "vichy-communaute",
     "type": null
   },
   {
@@ -1347,6 +1467,12 @@
     "id": "6597b8dd306f04cc71e208d1",
     "name": "VINCI Autoroutes",
     "slug": "vinci-autoroutes",
+    "type": null
+  },
+  {
+    "id": "625553db8c0896acd7d3a900",
+    "name": "VITRE COMMUNAUTE",
+    "slug": "vitre-communaute",
     "type": null
   },
   {
