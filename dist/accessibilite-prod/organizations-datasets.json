@@ -24,6 +24,12 @@
     "type": null
   },
   {
+    "id": "63ab07bc293c85326eaa2a8d",
+    "name": "Alliance Atlantique",
+    "slug": "alliance-atlantique",
+    "type": null
+  },
+  {
     "id": "538346d6a3a72906c7ec5c36",
     "name": "Angers Loire Métropole",
     "slug": "angers-loire-metropole",
@@ -90,6 +96,18 @@
     "type": null
   },
   {
+    "id": "642d8c4d64e01db258055f82",
+    "name": "CA ANNONAY RHONE AGGLO",
+    "slug": "ca-annonay-rhone-agglo",
+    "type": null
+  },
+  {
+    "id": "68c3d91ba52b4a330155bf5f",
+    "name": "CA Luberon Monts de Vaucluse",
+    "slug": "ca-luberon-monts-de-vaucluse",
+    "type": null
+  },
+  {
     "id": "5fa985066333fad0e735c985",
     "name": "Caisse des Dépôts",
     "slug": "caisse-des-depots-1",
@@ -111,6 +129,12 @@
     "id": "552e97f3c751df636537dddb",
     "name": "Centre National des Œuvres Universitaires et Scolaires",
     "slug": "centre-national-des-oeuvres-universitaires-et-scolaires",
+    "type": null
+  },
+  {
+    "id": "69c2aa8b0cac4b91fc102ba5",
+    "name": "Challans Gois Communauté",
+    "slug": "challans-gois-communaute",
     "type": null
   },
   {
@@ -147,6 +171,12 @@
     "id": "5ca4bacb634f4118ab6dea0f",
     "name": "Communauté d'Agglomération Annemasse - les Voirons Agglomération",
     "slug": "communaute-dagglomeration-annemasse-les-voirons-agglomeration",
+    "type": null
+  },
+  {
+    "id": "61fbae275042f44a729067c0",
+    "name": "Communauté d'agglomération Chauny-Tergnier-La Fère",
+    "slug": "communaute-dagglomeration-chauny-tergnier-la-fere",
     "type": null
   },
   {
@@ -198,6 +228,18 @@
     "type": null
   },
   {
+    "id": "5e2086a38b4c41778e8f75bc",
+    "name": "Communauté d'Agglomération du Grand Dole",
+    "slug": "communaute-dagglomeration-du-grand-dole",
+    "type": null
+  },
+  {
+    "id": "5cc0c79b8b4c414c13d12d0a",
+    "name": "Communauté d'agglomération du grand Gueret",
+    "slug": "communaute-dagglomeration-du-grand-gueret-1",
+    "type": null
+  },
+  {
     "id": "60ae45c11807e6d76ba47e50",
     "name": "Communauté d'Agglomération du Niortais",
     "slug": "communaute-dagglomeration-du-niortais",
@@ -207,6 +249,12 @@
     "id": "5afae4b088ee3854d32fa3d9",
     "name": "Communauté d'agglomération du Pays de Grasse",
     "slug": "communaute-dagglomeration-du-pays-de-grasse",
+    "type": null
+  },
+  {
+    "id": "6411d202278262d67ffb74d0",
+    "name": "Communauté d'Agglomération du Pays de Laon",
+    "slug": "communaute-dagglomeration-du-pays-de-laon",
     "type": null
   },
   {
@@ -270,15 +318,69 @@
     "type": null
   },
   {
+    "id": "66c346945a7859484884360e",
+    "name": "Communauté de Communes Chinon Vienne et Loire",
+    "slug": "communaute-de-communes-chinon-vienne-et-loire",
+    "type": null
+  },
+  {
+    "id": "5f5e6cf238617ce5be60d259",
+    "name": "Communauté de communes Cluses Arve et Montagne",
+    "slug": "communaute-de-communes-cluses-arve-et-montagne",
+    "type": null
+  },
+  {
     "id": "68ff4e0654fe6900753c70a9",
     "name": "Communauté de communes Coeur de Nacre",
     "slug": "communaute-de-communes-coeur-de-nacre",
     "type": null
   },
   {
+    "id": "6859566870977499bb0b8a78",
+    "name": "Communauté de Communes Cœur de Loire",
+    "slug": "communaute-de-communes-coeur-de-loire",
+    "type": null
+  },
+  {
     "id": "60a3c21d90cf982bc6f80e8d",
     "name": "Communauté de Communes du Briançonnais",
     "slug": "communaute-de-communes-du-brianconnais",
+    "type": null
+  },
+  {
+    "id": "69a54c9c38d1bdbd8a58c4dc",
+    "name": "Communauté de Communes du Centre-Ouest",
+    "slug": "communaute-de-communes-du-centre-ouest",
+    "type": null
+  },
+  {
+    "id": "671f6bff97f77a0ad3522064",
+    "name": "Communauté de communes du Guillestrois et du Queyras",
+    "slug": "communaute-de-communes-du-guillestrois-et-du-queyras",
+    "type": null
+  },
+  {
+    "id": "5c49cbf88b4c417bb816ac00",
+    "name": "Communauté de Communes du Pays d'Orange en Provence",
+    "slug": "communaute-de-communes-du-pays-dorange-en-provence",
+    "type": null
+  },
+  {
+    "id": "67977285fa5aa2951c512fb7",
+    "name": "Communauté de Communes Haute-Tarentaise",
+    "slug": "communaute-de-communes-haute-tarentaise",
+    "type": null
+  },
+  {
+    "id": "63b68eb2109ebaadc396978a",
+    "name": "Communauté de communes pays d'Evian - vallée d'Abondance",
+    "slug": "communaute-de-communes-pays-devian-vallee-dabondance",
+    "type": null
+  },
+  {
+    "id": "6798ece7352360851f23523f",
+    "name": "Communauté de Communes Pyrénées Vallées des Gaves",
+    "slug": "communaute-de-communes-pyrenees-vallees-des-gaves",
     "type": null
   },
   {
@@ -339,6 +441,12 @@
     "id": "69047152ee0fd47ca0156148",
     "name": "Commune de Talizat",
     "slug": "commune-de-talizat",
+    "type": null
+  },
+  {
+    "id": "62f12a4773eb603eca69e844",
+    "name": "COMPAGNIE AUTOBUS DE MONACO",
+    "slug": "compagnie-autobus-de-monaco",
     "type": null
   },
   {
@@ -408,6 +516,12 @@
     "type": null
   },
   {
+    "id": "5e2067046f444136d7dd0c1e",
+    "name": "DECAZEVILLE COMMUNAUTE",
+    "slug": "decazeville-communaute",
+    "type": null
+  },
+  {
     "id": "5a216283c751df6333108428",
     "name": "Département de l'Aube",
     "slug": "departement-de-laube",
@@ -429,6 +543,12 @@
     "id": "5e281d5b634f417c0c54ae2f",
     "name": "Département de la Seine-Maritime",
     "slug": "departement-de-la-seine-maritime",
+    "type": null
+  },
+  {
+    "id": "534fff6fa3a7292c64a77dc1",
+    "name": "Département de Loire-Atlantique",
+    "slug": "departement-de-loire-atlantique",
     "type": null
   },
   {
@@ -615,6 +735,12 @@
     "id": "568e5e9488ee38033aaf0bf4",
     "name": "Île-de-France Mobilités",
     "slug": "ile-de-france-mobilites",
+    "type": null
+  },
+  {
+    "id": "661e6c88285e9d81250e0bae",
+    "name": "Intercom de la Vire au Noireau",
+    "slug": "intercom-de-la-vire-au-noireau",
     "type": null
   },
   {
@@ -882,6 +1008,12 @@
     "type": null
   },
   {
+    "id": "5bf2d970634f414ab5643cee",
+    "name": "Open Data Rodez Agglomération",
+    "slug": "open-data-rodez-agglomeration",
+    "type": null
+  },
+  {
     "id": "534fffa0a3a7292c64a7806b",
     "name": "OpenStreetMap",
     "slug": "openstreetmap",
@@ -939,6 +1071,12 @@
     "id": "534fffa5a3a7292c64a7809e",
     "name": "Premier ministre",
     "slug": "premier-ministre",
+    "type": null
+  },
+  {
+    "id": "623d7d93babf28e1b5663514",
+    "name": "PROVENCE-ALPES-AGGLOMERATION",
+    "slug": "provence-alpes-agglomeration",
     "type": null
   },
   {
@@ -1041,6 +1179,12 @@
     "id": "56f54580c751df65ebc485cb",
     "name": "Saemes ",
     "slug": "saemes",
+    "type": null
+  },
+  {
+    "id": "689b38b6013e249bf1f9dec6",
+    "name": "Sailcoop",
+    "slug": "sailcoop",
     "type": null
   },
   {
@@ -1212,6 +1356,12 @@
     "type": null
   },
   {
+    "id": "63f73cf33709a404f507dcf6",
+    "name": "TBK - Réseau de transports publics de Quimperlé",
+    "slug": "tbk-reseau-de-transports-publics-de-quimperle",
+    "type": null
+  },
+  {
     "id": "5c0932458b4c4175cacf2f77",
     "name": "TCAT - Transports en Commun de l'Agglomération Troyenne",
     "slug": "tcat-transports-en-commun-de-lagglomeration-troyenne",
@@ -1236,9 +1386,21 @@
     "type": null
   },
   {
+    "id": "62c17768597236966d1d6ae1",
+    "name": "Tout'enbus",
+    "slug": "toutenbus",
+    "type": null
+  },
+  {
     "id": "60a50dfeebf8ad5208699b7a",
     "name": "Transdev • Bretagne ",
     "slug": "transdev-bretagne",
+    "type": null
+  },
+  {
+    "id": "60a50eacc833c842a97209b7",
+    "name": "Transdev • Centre-Val de Loire",
+    "slug": "transdev-centre-val-de-loire",
     "type": null
   },
   {
@@ -1251,6 +1413,12 @@
     "id": "693a8ee2dd89c7ae77190cb9",
     "name": "Transdev CapAtlantique Mobilités • Lila Presqu'île",
     "slug": "transdev-capatlantique-mobilites-lila-presquile",
+    "type": null
+  },
+  {
+    "id": "6569b5e82545dcc4a568b668",
+    "name": "Transdev Chamonix",
+    "slug": "transdev-chamonix-1",
     "type": null
   },
   {
@@ -1269,6 +1437,18 @@
     "id": "5ef0721566bea174e2d08b2c",
     "name": "Transdev SMA Mobilités • MAT",
     "slug": "transdev-sma-mobilites-mat",
+    "type": null
+  },
+  {
+    "id": "5bcf27078b4c4127749e259d",
+    "name": "Transdev Vierzon Mobilités • Le Vib",
+    "slug": "transdev-vierzon-mobilites-le-vib",
+    "type": null
+  },
+  {
+    "id": "5c0f9f618b4c41745fb43104",
+    "name": "Transp'Or - Pays de l'Or Agglomération",
+    "slug": "transpor-pays-de-lor-agglomeration",
     "type": null
   },
   {

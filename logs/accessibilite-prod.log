@@ -1,33 +1,13 @@
 API for https://www.data.gouv.fr ready.
-Starting at Fri Jun 26 08:44:19 2026.
+Starting at Sat Jun 27 08:05:32 2026.
 Processing universe topic 'univers-accessibilite'.
-Warning: Invalid grist entry line 532
-Warning: Invalid grist entry line 533
-Warning: Invalid grist entry line 534
-Warning: Invalid grist entry line 535
-Warning: Invalid grist entry line 536
-Warning: Invalid grist entry line 537
-Warning: Invalid grist entry line 538
-Warning: Invalid grist entry line 539
-Warning: Invalid grist entry line 540
-Warning: Invalid grist entry line 541
-Warning: Invalid grist entry line 542
-Warning: Invalid grist entry line 543
-Warning: Invalid grist entry line 544
-Warning: Invalid grist entry line 545
-Warning: Invalid grist entry line 546
-Warning: Invalid grist entry line 547
-Warning: Invalid grist entry line 548
-Warning: Invalid grist entry line 549
-Warning: Invalid grist entry line 550
-Warning: Invalid grist entry line 551
-Found 530 entries in grist.
-Found 530 datasets matching the upcoming universe.
-Found 491 datasets currently in the universe.
+Found 603 entries in grist.
+Found 603 datasets matching the upcoming universe.
+Found 530 datasets currently in the universe.
 Updating topic:
-- Adding 39 datasets...
+- Adding 73 datasets...
 - Deleting 0 datasets...
-Generating output file dist/accessibilite-prod/organizations-datasets.json with 247 entries...
+Generating output file dist/accessibilite-prod/organizations-datasets.json with 277 entries...
 Found 0 dataservices matching the upcoming universe.
 Found 0 dataservices currently in the universe.
 Updating topic:
@@ -36,4 +16,4 @@ Updating topic:
 Generating output file dist/accessibilite-prod/organizations-dataservices.json with 0 entries...
 Found 9 bouquets with the universe tag.
 Generating output file dist/accessibilite-prod/organizations-bouquets.json with 1 entries...
-Done at Fri Jun 26 08:45:25 2026 in 66 seconds.
+Done at Sat Jun 27 08:06:49 2026 in 77 seconds.
