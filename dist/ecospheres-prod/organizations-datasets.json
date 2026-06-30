@@ -126,6 +126,12 @@
     "type": "API ou AAI"
   },
   {
+    "id": "58e555f5c751df205d54e76b",
+    "name": "Base Adresse Nationale",
+    "slug": "base-adresse-nationale",
+    "type": "Autre"
+  },
+  {
     "id": "66601e784637c6bfa87b06ca",
     "name": "Bureau de Recherches Géologiques et Minières",
     "slug": "bureau-de-recherches-geologiques-et-minieres",
@@ -154,6 +160,12 @@
     "name": "Commission de régulation de l'énergie (CRE)",
     "slug": "commission-de-regulation-de-lenergie",
     "type": "API ou AAI"
+  },
+  {
+    "id": "646b7187b50b2a93b1ae3d45",
+    "name": "data.gouv.fr",
+    "slug": "data-gouv-fr",
+    "type": null
   },
   {
     "id": "5bf7f6a3634f413588391745",
