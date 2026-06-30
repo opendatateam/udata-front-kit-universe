@@ -1,11 +1,11 @@
 API for https://www.data.gouv.fr ready.
-Starting at Mon Jun 29 10:10:18 2026.
+Starting at Tue Jun 30 08:47:05 2026.
 Processing universe topic 'univers-accessibilite'.
-Found 603 entries in grist.
-Found 603 datasets matching the upcoming universe.
+Found 604 entries in grist.
+Found 604 datasets matching the upcoming universe.
 Found 603 datasets currently in the universe.
 Updating topic:
-- Adding 0 datasets...
+- Adding 1 datasets...
 - Deleting 0 datasets...
 Generating output file dist/accessibilite-prod/organizations-datasets.json with 277 entries...
 Found 0 dataservices matching the upcoming universe.
@@ -16,4 +16,4 @@ Updating topic:
 Generating output file dist/accessibilite-prod/organizations-dataservices.json with 0 entries...
 Found 9 bouquets with the universe tag.
 Generating output file dist/accessibilite-prod/organizations-bouquets.json with 1 entries...
-Done at Mon Jun 29 10:12:10 2026 in 112 seconds.
+Done at Tue Jun 30 08:48:31 2026 in 86 seconds.
