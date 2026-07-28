@@ -1191,18 +1191,24 @@
     "id": "534fffb2a3a7292c64a78123",
     "name": "Système d'Information sur l'Eau",
     "slug": "systeme-d-information-sur-l-eau",
-    "type": "EPA"
+    "type": "Autre"
   },
   {
     "id": "653130edb6223421ef195862",
     "name": "Système d'information sur la biodiversité",
     "slug": "systeme-dinformation-sur-la-biodiversite",
-    "type": null
+    "type": "Autre"
   },
   {
     "id": "67c5ea43c8e7b1f1830d4739",
     "name": "Tableau de bord des mobilités durables",
     "slug": "tableau-de-bord-des-mobilites-durables",
+    "type": "Autre"
+  },
+  {
+    "id": "6a0c2611239e95efd7de2558",
+    "name": "TACCT",
+    "slug": "tacct",
     "type": "Autre"
   },
   {
