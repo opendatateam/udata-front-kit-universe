@@ -24,6 +24,8 @@ jobs:
           - culture-deps-prod
           - culture-ministere-culture-prod
           - culture-ministere-culture-etablissements-prod
+          - ecospheres-sieau-demo
+          - ecospheres-simm-demo
           - ecospheres-demo
           - ecospheres-prod
           - accessibilite-demo
