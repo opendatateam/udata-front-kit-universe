@@ -1,5 +1,5 @@
 API for https://demo.data.gouv.fr ready.
-Starting at Thu Aug 27 15:27:08 2026.
+Starting at Thu Aug 27 16:26:43 2026.
 Processing universe topic 'univers-sieau'.
 Found 2 entries in grist.
 Found 578 datasets matching the upcoming universe.
@@ -14,4 +14,4 @@ Updating topic:
 - Adding 0 dataservices...
 - Deleting 0 dataservices...
 Generating output file dist/ecospheres-sieau-demo/organizations-dataservices.json with 1 entries...
-Done at Thu Aug 27 15:27:14 2026 in 6 seconds.
+Done at Thu Aug 27 16:26:50 2026 in 6 seconds.
