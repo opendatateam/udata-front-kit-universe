@@ -22,6 +22,8 @@ jobs:
         universe:
           - culture-prod
           - culture-deps-prod
+          - culture-ministere-prod
+          - culture-ministereetab-prod
           - ecospheres-sieau-demo
           - ecospheres-simm-demo
           - ecospheres-demo
