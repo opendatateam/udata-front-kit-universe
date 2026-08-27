@@ -1,7 +1,9 @@
 topic: univers-simm
 datagouv:
   url: https://demo.data.gouv.fr
+  token: CONFIGURE_ME
 grist:
   url: https://grist.numerique.gouv.fr/o/ecospheres/api/docs/iWqgJZ8yu9rrgXyXU7ie49
   table: SIMM
+  token: CONFIGURE_ME
 output_dir: dist/ecospheres-simm-demo

@@ -1,7 +1,9 @@
 topic: univers-sieau
 datagouv:
   url: https://demo.data.gouv.fr
+  token: CONFIGURE_ME
 grist:
   url: https://grist.numerique.gouv.fr/o/ecospheres/api/docs/iWqgJZ8yu9rrgXyXU7ie49
   table: SIE
+  token: CONFIGURE_ME
 output_dir: dist/ecospheres-sieau-demo
