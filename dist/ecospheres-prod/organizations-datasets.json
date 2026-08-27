@@ -1216,5 +1216,11 @@
     "name": "Trackdéchets",
     "slug": "trackdechets",
     "type": "Administration centrale"
+  },
+  {
+    "id": "64f7381ee6122adb3895b78c",
+    "name": "Zéro Logement Vacant",
+    "slug": "zero-logement-vacant",
+    "type": "Administration centrale"
   }
 ]
