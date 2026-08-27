@@ -5,9 +5,72 @@ on:
     # this should run right after most of harvesting is finished on data.gouv.fr
     - cron: "4 5 * * *"
   workflow_dispatch:
+    inputs:
+      universe:
+        description: "Universe to update (must match configs/<universe>.yaml file; leave empty to run all)"
+        required: false
+        type: string
 
 jobs:
+  set-matrix:
+    runs-on: ubuntu-latest
+    outputs:
+      universe: ${{ steps.set-matrix.outputs.universe }}
+
+    steps:
+      - uses: actions/checkout@v6
+      - name: Compute execution order
+        id: set-matrix
+        run: |
+          INPUT="${{ github.event.inputs.universe }}"
+          if [ -n "$INPUT" ]; then
+            if [ ! -f "configs/$INPUT.yaml" ]; then
+              echo "::error::No configs/$INPUT.yaml found for universe '$INPUT'"
+              exit 1
+            fi
+            echo "universe=[\"$INPUT\"]" >> "$GITHUB_OUTPUT"
+          else
+            # Universe names look like <v>-<e> or <v>-<sv>-<e>,
+            # with <v> = vertical, <sv> = sub-vertical, <e> =env,
+            # e.g. culture-prod, ecospheres-sieau-demo.
+            # Matrix execution order:
+            #   1. <v> and <sv> executed alphabetically,
+            #   2. <v>-<sv>-<e> before <v>-<e> for a given <v>,
+            #   3. <e> by increasing impact (demo < preprod < prod).
+            SORTED=$(
+              for f in configs/*.yaml; do
+                name=$(basename "$f" .yaml)
+                IFS='-' read -ra parts <<< "$name"
+                n=${#parts[@]}
+                v="${parts[0]}"
+                e="${parts[$((n - 1))]}"
+                if [ "$n" -gt 2 ]; then
+                  sv=$(IFS=-; echo "${parts[*]:1:$((n - 2))}")
+                  sv_rank=0
+                else
+                  sv=""
+                  sv_rank=1
+                fi
+                case "$e" in
+                  demo) e_rank=0 ;;
+                  preprod) e_rank=1 ;;
+                  prod) e_rank=2 ;;
+                  *) e_rank=9 ;;
+                esac
+                printf '%s|%s|%s|%s|%s\n' "$v" "$sv_rank" "$sv" "$e_rank" "$name"
+              done \
+                | sort -t '|' -k 1,1 -k 2,2 -k 3,3 -k 4,4 \
+                | cut -d '|' -f 5
+            )
+            UNIVERSES="[$(echo "$SORTED" | sed 's/.*/"&"/' | paste -sd, -)]"
+            echo "universe=$UNIVERSES" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Echo computed execution order
+        run: echo '${{ steps.set-matrix.outputs.universe }}'
+
   run-update:
+    needs: set-matrix
     runs-on: ubuntu-latest
     concurrency:
       # TODO: enable concurrency? make sure git commits don't step on eachother
@@ -19,15 +82,7 @@ jobs:
       # https://github.com/actions/runner/issues/703
       max-parallel: 1
       matrix:
-        universe:
-          - culture-prod
-          - culture-deps-prod
-          - ecospheres-sieau-demo
-          - ecospheres-simm-demo
-          - ecospheres-demo
-          - ecospheres-prod
-          - accessibilite-demo
-          - accessibilite-prod
+        universe: ${{ fromJSON(needs.set-matrix.outputs.universe) }}
     environment: ${{ matrix.universe }}
     env:
       ARTIFACTS_BRANCH: artifacts
@@ -53,7 +108,7 @@ jobs:
 
       - name: Update ${{ matrix.universe }} universe
         env:
-          DATAGOUV_API_KEY: ${{ secrets.DATAGOUV_API_KEY  }}
+          DATAGOUV_API_KEY: ${{ secrets.DATAGOUV_API_KEY }}
           GRIST_API_KEY: ${{ secrets.GRIST_API_KEY }}
           PYTHONUNBUFFERED: 1
         run: |
