@@ -1,3 +1,4 @@
+# WARNING: overload tokens with envvars or a separate config file to avoid leaking secrets
 topic: univers-sieau
 datagouv:
   url: https://demo.data.gouv.fr
