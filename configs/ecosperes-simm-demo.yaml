@@ -4,4 +4,4 @@ datagouv:
 grist:
   url: https://grist.numerique.gouv.fr/o/ecospheres/api/docs/iWqgJZ8yu9rrgXyXU7ie49
   table: SIMM
-output_dir: dist/ecologie-simm-demo
+output_dir: dist/ecospheres-simm-demo

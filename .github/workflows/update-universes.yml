@@ -22,8 +22,8 @@ jobs:
         universe:
           - culture-prod
           - culture-deps-prod
-          - ecologie-sieau-demo
-          - ecologie-simm-demo
+          - ecospheres-sieau-demo
+          - ecospheres-simm-demo
           - ecospheres-demo
           - ecospheres-prod
           - accessibilite-demo
