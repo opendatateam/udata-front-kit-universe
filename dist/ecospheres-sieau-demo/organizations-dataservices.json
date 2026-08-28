@@ -1,5 +1,11 @@
 [
   {
+    "id": "673f49a6d1c056e10ac5f38b",
+    "name": "Hub’eau",
+    "slug": "hubeau",
+    "type": null
+  },
+  {
     "id": "6a7d9c1679e4fdba84cde78d",
     "name": "Service d'administration nationale des données et référentiels sur l'eau",
     "slug": "service-dadministration-nationale-des-donnees-et-referentiels-sur-leau",
