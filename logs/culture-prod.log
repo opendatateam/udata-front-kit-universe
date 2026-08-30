@@ -1,5 +1,5 @@
 API for https://www.data.gouv.fr ready.
-Starting at Sat Aug 29 11:38:55 2026.
+Starting at Sun Aug 30 10:30:20 2026.
 Processing universe topic 'univers-culture'.
 Found 22 entries in grist.
 Found 980 datasets matching the upcoming universe.
@@ -14,4 +14,4 @@ Updating topic:
 - Adding 0 dataservices...
 - Deleting 0 dataservices...
 Generating output file dist/culture-prod/organizations-dataservices.json with 5 entries...
-Done at Sat Aug 29 11:39:11 2026 in 16 seconds.
+Done at Sun Aug 30 10:30:41 2026 in 21 seconds.
