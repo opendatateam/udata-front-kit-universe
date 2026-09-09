@@ -1,10 +1,11 @@
 const POOL_SIZE = 5;
 const RESOLVABLE = ["dataservice", "dataset", "organization", "topic"];
 const MAX_RETRIES = 3;
-const RETRY_BASE_DELAY_MS = 1000;
-const MIN_REQUEST_INTERVAL_MS = 250; // paces requests regardless of POOL_SIZE; tune down if this still trips the rate limit
+const MIN_REQUEST_INTERVAL_MS = 100; // paces requests regardless of POOL_SIZE, to stay under the server's rate limit
+const RATE_LIMIT_COOLDOWN_MS = 15000; // long enough that a retry can't land in the same rate-limit window as the 429 that caused it
 
 let nextRequestTime = 0;
+let cooldownUntil = 0;
 
 
 ready(() => {
@@ -115,9 +116,10 @@ async function fetchWithRetry(url) {
       return response;
     }
 
-    const delayMs = RETRY_BASE_DELAY_MS * 2 ** attempt;
-    console.warn(`DatagouvSync: Rate limited on ${url}, retrying in ${delayMs}ms (attempt ${attempt + 1}/${MAX_RETRIES})`);
-    await sleep(delayMs);
+    // Pause every request in the pool, not just this one, so our own retries
+    // can't pile up enough hits in a short window to get us banned.
+    cooldownUntil = Date.now() + RATE_LIMIT_COOLDOWN_MS;
+    console.warn(`DatagouvSync: Rate limited on ${url}, pausing all requests for ${RATE_LIMIT_COOLDOWN_MS}ms (attempt ${attempt + 1}/${MAX_RETRIES})`);
   }
 }
 
@@ -131,7 +133,7 @@ function sleep(ms) {
 // so we don't dispatch requests faster than the server's rate limit allows.
 async function throttle() {
   const now = Date.now();
-  const scheduled = Math.max(now, nextRequestTime);
+  const scheduled = Math.max(now, nextRequestTime, cooldownUntil);
   nextRequestTime = scheduled + MIN_REQUEST_INTERVAL_MS;
   if (scheduled > now) await sleep(scheduled - now);
 }
