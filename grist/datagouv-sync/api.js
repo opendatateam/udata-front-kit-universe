@@ -76,7 +76,7 @@ async function resolve(env, row) {
   }
 
   const identifier = row.Identifiant.trim();
-  const object = `${type}s`
+  const object = `${type}s`;
   const version = type == "topic" ? "2" : "1";
   const url = `https://${env}.data.gouv.fr/api/${version}/${object}/${identifier}/`;
 
