@@ -408,6 +408,12 @@
     "type": "DDT(M), DTAM, DEAL"
   },
   {
+    "id": "58aef37488ee382a896c7a3e",
+    "name": "DDTM de la Seine-Maritime",
+    "slug": "ddtm-de-la-seine-maritime",
+    "type": "DDT(M), DTAM, DEAL"
+  },
+  {
     "id": "58aedac788ee387b6dcadf8e",
     "name": "DDTM Finistère",
     "slug": "ddtm-finistere",
