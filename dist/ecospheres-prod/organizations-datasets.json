@@ -1152,6 +1152,12 @@
     "type": "Association"
   },
   {
+    "id": "67dbefdf5b536934a6e640be",
+    "name": "Secrétariat général à la planification écologique",
+    "slug": "secretariat-general-a-la-planification-ecologique",
+    "type": "Administration centrale"
+  },
+  {
     "id": "55eeb55fc751df24d31f92b3",
     "name": "Service central d’hydrométéorologie et d’appui à la prévision des inondations",
     "slug": "service-central-dhydrometeorologie-et-dappui-a-la-prevision-des-inondations",
