@@ -1,0 +1,62 @@
+[
+  {
+    "id": "534fff5aa3a7292c64a77d09",
+    "name": "Bibliothèque nationale de France",
+    "slug": "bibliotheque-nationale-de-france",
+    "type": null
+  },
+  {
+    "id": "534fff5ea3a7292c64a77d40",
+    "name": "Centre des monuments nationaux ",
+    "slug": "centre-des-monuments-nationaux",
+    "type": null
+  },
+  {
+    "id": "534fff5fa3a7292c64a77d49",
+    "name": "Centre national du cinéma et de l'image animée",
+    "slug": "centre-national-du-cinema-et-de-l-image-animee",
+    "type": null
+  },
+  {
+    "id": "534fff71a3a7292c64a77dcd",
+    "name": "École nationale supérieure d'art Villa Arson de Nice",
+    "slug": "ecole-nationale-superieure-d-art-villa-arson-de-nice",
+    "type": null
+  },
+  {
+    "id": "534fff72a3a7292c64a77dd0",
+    "name": "École nationale supérieure des métiers de l'image et du son (La Fémis)",
+    "slug": "ecole-nationale-superieure-des-metiers-de-l-image-et-du-son-la-femis",
+    "type": null
+  },
+  {
+    "id": "534fff74a3a7292c64a77de0",
+    "name": "Établissement public du musée d'Orsay et du musée de l'Orangerie",
+    "slug": "etablissement-public-du-musee-d-orsay-et-du-musee-de-l-orangerie",
+    "type": null
+  },
+  {
+    "id": "57fe0dfac751df15a779df72",
+    "name": "Institut national de l'audiovisuel",
+    "slug": "institut-national-de-laudiovisuel",
+    "type": null
+  },
+  {
+    "id": "534fff82a3a7292c64a77e82",
+    "name": "Institut national de recherches archéologiques préventives",
+    "slug": "institut-national-de-recherches-archeologiques-preventives",
+    "type": null
+  },
+  {
+    "id": "534fff91a3a7292c64a77f73",
+    "name": "Ministère de la Culture",
+    "slug": "ministere-de-la-culture-et-de-la-communication",
+    "type": null
+  },
+  {
+    "id": "534fff97a3a7292c64a7800b",
+    "name": "Musée des arts asiatiques Guimet",
+    "slug": "musee-des-arts-asiatiques-guimet",
+    "type": null
+  }
+]
