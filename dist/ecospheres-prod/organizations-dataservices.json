@@ -54,6 +54,12 @@
     "type": "Administration centrale"
   },
   {
+    "id": "559c0165c751df414e390bd4",
+    "name": "Direction Départementale des Territoires de Charente",
+    "slug": "direction-departementale-des-territoires-de-charente",
+    "type": "DDT(M), DTAM, DEAL"
+  },
+  {
     "id": "568e9657c751df5a92c664bc",
     "name": "DREAL Pays de la Loire",
     "slug": "dreal-pays-de-la-loire-direction-regionale-de-lenvironnement-de-lamenagement-et-du-logement-pays-de-la-loire",
