@@ -1,5 +1,5 @@
 API for https://www.data.gouv.fr ready.
-Starting at Wed Sep 16 09:53:58 2026.
+Starting at Thu Sep 17 10:00:03 2026.
 Processing universe topic 'univers-ministere-culture-etablissements'.
 Found 17 entries in grist.
 Found 261 datasets matching the upcoming universe.
@@ -14,4 +14,4 @@ Updating topic:
 - Adding 0 dataservices...
 - Deleting 0 dataservices...
 Generating output file dist/culture-ministereetab-prod/organizations-dataservices.json with 2 entries...
-Done at Wed Sep 16 09:54:09 2026 in 11 seconds.
+Done at Thu Sep 17 10:00:16 2026 in 13 seconds.
