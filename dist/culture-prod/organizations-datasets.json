@@ -168,6 +168,12 @@
     "type": null
   },
   {
+    "id": "6acf794e0671493a8bcd0131",
+    "name": "Commune de Ferney-Voltaire",
+    "slug": "commune-de-ferney-voltaire",
+    "type": null
+  },
+  {
     "id": "5c6303468b4c414d6ae2ebcd",
     "name": "Commune de Saint-Paul-lès-Dax",
     "slug": "commune-de-saint-paul-les-dax",
@@ -381,12 +387,6 @@
     "id": "57fe0dfac751df15a779df72",
     "name": "Institut national de l'audiovisuel",
     "slug": "institut-national-de-laudiovisuel",
-    "type": null
-  },
-  {
-    "id": "534fff81a3a7292c64a77e5c",
-    "name": "Institut national de la statistique et des études économiques (Insee)",
-    "slug": "institut-national-de-la-statistique-et-des-etudes-economiques-insee",
     "type": null
   },
   {
