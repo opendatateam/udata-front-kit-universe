@@ -1,5 +1,5 @@
 API for https://demo.data.gouv.fr ready.
-Starting at Fri Oct 16 10:03:31 2026.
+Starting at Sat Oct 17 09:36:19 2026.
 Processing universe topic 'univers-accessibilite'.
 Found 342 entries in grist.
 Unknown Dataset 685965d0ab901919e14a4a1b
@@ -19,4 +19,4 @@ Updating topic:
 Generating output file dist/accessibilite-demo/organizations-dataservices.json with 0 entries...
 Found 9 bouquets with the universe tag.
 Generating output file dist/accessibilite-demo/organizations-bouquets.json with 1 entries...
-Done at Fri Oct 16 10:04:23 2026 in 52 seconds.
+Done at Sat Oct 17 09:37:17 2026 in 58 seconds.
