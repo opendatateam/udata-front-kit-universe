@@ -270,12 +270,6 @@
     "type": "DDT(M), DTAM, DEAL"
   },
   {
-    "id": "58aec08788ee38561ae40f54",
-    "name": "DDT Haute-Corse",
-    "slug": "ddt-haute-corse",
-    "type": "DDT(M), DTAM, DEAL"
-  },
-  {
     "id": "58aedcab88ee3803c23a38c8",
     "name": "DDT Haute-Garonne",
     "slug": "ddt-haute-garonne",
@@ -501,6 +495,12 @@
     "id": "559c0165c751df414e390bd4",
     "name": "Direction Départementale des Territoires de Charente",
     "slug": "direction-departementale-des-territoires-de-charente",
+    "type": "DDT(M), DTAM, DEAL"
+  },
+  {
+    "id": "58aec08788ee38561ae40f54",
+    "name": "Direction Départementale des Territoires de Haute-Corse",
+    "slug": "direction-departementale-des-territoires-de-haute-corse",
     "type": "DDT(M), DTAM, DEAL"
   },
   {
