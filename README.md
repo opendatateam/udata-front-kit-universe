@@ -21,7 +21,7 @@ curl -X POST \
   https://{env}.data.gouv.fr/api/2/topics/ \
   -H "Content-Type: application/json" \
   -H "X-API-KEY: {mon-token-datagouv}" \
-  -d '{"name": "{mon-topic-univers}", "description": "Topic univers pour {site}.data.gouv.fr", "private": true, "tags": ["topic-univers"]}'
+  -d '{"title": "{mon-topic-univers}", "description": "Topic univers pour {site}.data.gouv.fr", "private": true, "tags": ["topic-univers"]}'
 ```
 
 Sauf exception, le nom du topic univers doit suivre la convention `univers-{site}`.
