@@ -192,12 +192,6 @@
     "type": "DDT(M), DTAM, DEAL"
   },
   {
-    "id": "58aec08788ee38561ae40f54",
-    "name": "DDT Haute-Corse",
-    "slug": "ddt-haute-corse",
-    "type": "DDT(M), DTAM, DEAL"
-  },
-  {
     "id": "58aedcab88ee3803c23a38c8",
     "name": "DDT Haute-Garonne",
     "slug": "ddt-haute-garonne",
@@ -330,6 +324,12 @@
     "type": "DDT(M), DTAM, DEAL"
   },
   {
+    "id": "58aef37488ee382a896c7a3e",
+    "name": "DDTM de la Seine-Maritime",
+    "slug": "ddtm-de-la-seine-maritime",
+    "type": "DDT(M), DTAM, DEAL"
+  },
+  {
     "id": "58aedac788ee387b6dcadf8e",
     "name": "DDTM Finistère",
     "slug": "ddtm-finistere",
@@ -378,12 +378,6 @@
     "type": "DDT(M), DTAM, DEAL"
   },
   {
-    "id": "58aef37488ee382a896c7a3e",
-    "name": "DDTM Seine-Maritime",
-    "slug": "ddtm-seine-maritime",
-    "type": "DDT(M), DTAM, DEAL"
-  },
-  {
     "id": "58aef70888ee3830a05fffe6",
     "name": "DDTM Vendée",
     "slug": "ddtm-vendee",
@@ -417,6 +411,12 @@
     "id": "559c0165c751df414e390bd4",
     "name": "Direction Départementale des Territoires de Charente",
     "slug": "direction-departementale-des-territoires-de-charente",
+    "type": "DDT(M), DTAM, DEAL"
+  },
+  {
+    "id": "58aec08788ee38561ae40f54",
+    "name": "Direction Départementale des Territoires de Haute-Corse",
+    "slug": "direction-departementale-des-territoires-de-haute-corse",
     "type": "DDT(M), DTAM, DEAL"
   },
   {
@@ -882,6 +882,12 @@
     "type": null
   },
   {
+    "id": "66df02e8271526916b6815e1",
+    "name": "Parc national de Port-Cros",
+    "slug": "parc-national-de-port-cros",
+    "type": null
+  },
+  {
     "id": "5be05903634f4138316458c7",
     "name": "Parc national des Cévennes",
     "slug": "parc-national-des-cevennes",
@@ -957,12 +963,6 @@
     "id": "5b0863e088ee382b48ed72ea",
     "name": "Section Cadastre-Topographie de la Polynésie française",
     "slug": "section-cadastre-topographie-de-la-polynesie-francaise",
-    "type": null
-  },
-  {
-    "id": "6a7d9c1679e4fdba84cde78d",
-    "name": "Service d'administration nationale des données et référentiels sur l'eau",
-    "slug": "service-dadministration-nationale-des-donnees-et-referentiels-sur-leau",
     "type": null
   },
   {

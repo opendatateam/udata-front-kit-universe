@@ -18,6 +18,12 @@
     "type": null
   },
   {
+    "id": "5b1138d9c751df2618dc4662",
+    "name": "Agence ORE",
+    "slug": "agence-ore-3",
+    "type": null
+  },
+  {
     "id": "66601e784637c6bfa87b06ca",
     "name": "Bureau de Recherches Géologiques et Minières",
     "slug": "bureau-de-recherches-geologiques-et-minieres",
@@ -34,6 +40,12 @@
     "name": "Cerema",
     "slug": "cerema",
     "type": null
+  },
+  {
+    "id": "568e9657c751df5a92c664bc",
+    "name": "DREAL Pays de la Loire",
+    "slug": "dreal-pays-de-la-loire-direction-regionale-de-lenvironnement-de-lamenagement-et-du-logement-pays-de-la-loire",
+    "type": "DREAL, DRIEAT"
   },
   {
     "id": "67884b4da4fca9c97bbef479",
@@ -96,6 +108,12 @@
     "type": null
   },
   {
+    "id": "56c44eb7c751df689e6c6de0",
+    "name": "Observatoire de l'environnement en Bretagne",
+    "slug": "gip-bretagne-environnement",
+    "type": null
+  },
+  {
     "id": "5a0f0384c751df5f68d855b9",
     "name": "Open Data Réseaux Énergies",
     "slug": "open-data-reseaux-energies-1",
@@ -105,12 +123,6 @@
     "id": "534fffa6a3a7292c64a780b7",
     "name": "Régie autonome des transports parisiens (RATP)",
     "slug": "regie-autonome-des-transports-parisiens-ratp",
-    "type": null
-  },
-  {
-    "id": "6a7d9c1679e4fdba84cde78d",
-    "name": "Service d'administration nationale des données et référentiels sur l'eau",
-    "slug": "service-dadministration-nationale-des-donnees-et-referentiels-sur-leau",
     "type": null
   },
   {
