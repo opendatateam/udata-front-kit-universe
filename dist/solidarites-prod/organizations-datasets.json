@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "id": "534fff5ca3a7292c64a77d26",
+    "name": "Caisse nationale de solidarité pour l'autonomie (CNSA)",
+    "slug": "caisse-nationale-de-solidarite-pour-lautonomie-cnsa",
+    "type": null
+  },
+  {
+    "id": "5595066cc751df4582a453ba",
+    "name": "Caisse Nationale des Allocations familiales ",
+    "slug": "allocations-familiales",
+    "type": null
+  },
+  {
+    "id": "534fff94a3a7292c64a77fc1",
+    "name": "Ministère des Solidarités et de la Santé",
+    "slug": "ministere-des-solidarites-et-de-la-sante",
+    "type": null
+  },
+  {
+    "id": "534fff94a3a7292c64a77fc1",
+    "name": "Ministère des Solidarités et de la Santé",
+    "slug": "ministere-des-solidarites-et-de-la-sante",
+    "type": null
+  }
+]
