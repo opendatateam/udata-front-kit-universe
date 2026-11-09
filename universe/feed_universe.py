@@ -202,8 +202,9 @@ def feed(
 
     grist = GristApi(
         base_url=conf.grist.url,
-        table=conf.grist.table,
         token=conf.grist.token,
+        table=conf.grist.table,
+        filter=conf.grist.filter,
     )
 
     print(f"Starting at {datetime.datetime.now():%c}.")

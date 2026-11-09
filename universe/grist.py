@@ -1,8 +1,10 @@
-import requests
-
 from collections.abc import Sequence
 from dataclasses import dataclass
 from enum import auto, StrEnum
+from json import dumps
+from typing import Any
+
+import requests
 
 from universe.datagouv import DatagouvObject
 from universe.util import sanitize_string, uniquify
@@ -28,20 +30,24 @@ class GristEntry[T: DatagouvObject]:
 
 
 class GristApi:
-    def __init__(self, base_url: str, table: str, token: str):
+    def __init__(self, base_url: str, token: str, table: str, filter: dict[str, Any] | None = None):
         self.base_url = base_url
-        self.table = table
         self.token = token
+        self.table = table
+        self.filter = filter
 
     @property
     def records_url(self):
         return f"{self.base_url}/tables/{self.table}/records"
 
     def get_entries(self) -> Sequence[GristEntry]:
+        params = {"limit": 0, "hidden": "true"}
+        if self.filter:
+            params["filter"] = dumps(self.filter)
         r = requests.get(
             self.records_url,
             headers={"Authorization": f"Bearer {self.token}", "Content-Type": "application/json"},
-            params={"limit": 0},
+            params=params,
         )
         r.raise_for_status()
         records = r.json()["records"]

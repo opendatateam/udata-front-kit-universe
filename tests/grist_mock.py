@@ -42,7 +42,7 @@ class GristMock:
         # grist.get_entries()
         _ = self.responses.get(
             url=f"{self.config.grist.url}/tables/{self.config.grist.table}/records",
-            match=[query_param_matcher({"limit": 0})],
+            match=[query_param_matcher({"limit": 0, "hidden": "true"})],
             json={
                 "records": [
                     {

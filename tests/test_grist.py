@@ -8,11 +8,6 @@ from universe.datagouv import Dataservice, Dataset, Organization, Tag, Topic
 from universe.grist import GristAction, GristApi, GristEntry
 
 
-@pytest.fixture
-def api(config: Config) -> GristApi:
-    return GristApi(config.grist.url, config.grist.table, config.grist.token)
-
-
 @dataclass
 class GristRecord:
     identifier: str | None
@@ -21,7 +16,47 @@ class GristRecord:
     category: str | None = None
 
 
-class TestGristEntry:
+class TestGristApi:
+    def test_init(self):
+        api = GristApi("https://www.example.com/grist", "token", "table")
+
+        assert api.base_url == "https://www.example.com/grist"
+        assert api.token == "token"
+        assert api.table == "table"
+        assert api.filter is None
+
+    def test_get_entries_query_params_defaults(self, responses: RequestsMock, config: Config):
+        api = GristApi(
+            config.grist.url, config.grist.token, config.grist.table, config.grist.filter
+        )
+        responses.get(url=api.records_url, json={"records": []})
+
+        assert api.get_entries() == []
+
+        request = responses.calls[0].request
+        assert request.params == {"limit": "0", "hidden": "true"}
+        assert request.headers["Authorization"] == f"Bearer {api.token}"
+
+    def test_get_entries_query_params_with_filter(self, responses: RequestsMock, config: Config):
+        api = GristApi(config.grist.url, config.grist.token, config.grist.table, {"Coeur": [True]})
+        responses.get(url=api.records_url, json={"records": []})
+
+        assert api.get_entries() == []
+
+        request = responses.calls[0].request
+        assert request.params == {"limit": "0", "hidden": "true", "filter": '{"Coeur": [true]}'}
+
+    @pytest.mark.parametrize("filter", [None, {}])
+    def test_get_entries_query_params_empty_filter(
+        self, responses: RequestsMock, config: Config, filter
+    ):
+        api = GristApi(config.grist.url, config.grist.token, config.grist.table, filter)
+        responses.get(url=api.records_url, json={"records": []})
+
+        assert api.get_entries() == []
+
+        assert "filter" not in responses.calls[0].request.params
+
     @pytest.mark.parametrize(
         "inputs, expected",
         [
@@ -103,13 +138,16 @@ class TestGristEntry:
             ),
         ],
     )
-    def test_get_entries(
+    def test_get_entries_results(
         self,
         responses: RequestsMock,
-        api: GristApi,
+        config: Config,
         inputs: list[GristRecord],
         expected: list[GristEntry],
     ):
+        api = GristApi(
+            config.grist.url, config.grist.token, config.grist.table, config.grist.filter
+        )
         responses.get(
             url=api.records_url,
             json={

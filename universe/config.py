@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from deepmerge import always_merger
 from pathlib import Path
+from typing import Any
 
 import dacite
 import yaml
@@ -15,8 +16,9 @@ class DatagouvConfig:
 @dataclass
 class GristConfig:
     url: str
-    table: str
     token: str
+    table: str
+    filter: dict[str, Any] | None = None
 
 
 @dataclass
