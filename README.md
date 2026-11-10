@@ -123,7 +123,7 @@ Les fichiers de configuration versionnés ne devant pas contenir les clés d'API
 
 - Configurer les variables d'environnement `DATAGOUV_API_KEY` et `GRIST_API_KEY`.
 
-- Utiliser un fichier de configuration supplémentaire **non-versionné**, à passer en supplément lors de l'appel du script :
+- Utiliser un fichier de configuration supplémentaire **non versionné**, à passer en supplément lors de l'appel du script :
 
   ```yaml
   datagouv:
