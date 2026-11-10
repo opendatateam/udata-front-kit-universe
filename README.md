@@ -73,10 +73,8 @@ Pour configurer le script pour un univers :
    tag: {mon-tag-univers}
    datagouv:
      url: https://demo.data.gouv.fr  # ou https://www.data.gouv.fr
-     token: CONFIGURE_ME
    grist:
      url: https://grist.numerique.gouv.fr/o/{mon-compte-grist}/api/docs/{identifiant-du-document}
-     token: CONFIGURE_ME
      table: Demo  # ou Prod
      filter: {}   # optionnel, voir https://support.getgrist.com/api/#tag/records/operation/listRecords
    output_dir: dist/{site}-demo  # ou dist/{site}-prod
@@ -115,14 +113,17 @@ uv sync
 
 ### Configuration
 
+> [!WARNING]
+> Ne pas mettre les clés d'API dans les fichiers versionnés sur GitHub !
+
 > [!NOTE]
 > La clé d'API du compte de service Grist par défaut est disponible auprès des administrateurs de ce dépôt.
 
-Les fichiers de configuration versionnés ne devant pas contenir les clés d'API, il est nécessaire de les configurer localement. Soit :
+Les fichiers de configuration versionnés ne devant pas contenir les clés d'API, il faut les configurer localement. Soit :
 
 - Configurer les variables d'environnement `DATAGOUV_API_KEY` et `GRIST_API_KEY`.
 
-- Utiliser un fichier de configuration supplémentaire *non-versionné*, à passer en supplément lors de l'appel du script :
+- Utiliser un fichier de configuration supplémentaire **non-versionné**, à passer en supplément lors de l'appel du script :
 
   ```yaml
   datagouv:

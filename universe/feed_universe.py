@@ -177,7 +177,15 @@ def feed_universe(
     conf = Config.from_files(universe, *extra_configs)
 
     conf.datagouv.token = os.getenv("DATAGOUV_API_KEY", conf.datagouv.token)
+    if not conf.datagouv.token:
+        print(
+            "Error: missing datagouv token. Set `datagouv.token` in config or `DATAGOUV_API_KEY` in env."
+        )
+        sys.exit(1)
     conf.grist.token = os.getenv("GRIST_API_KEY", conf.grist.token)
+    if not conf.grist.token:
+        print("Error: missing grist token. Set `grist.token` in config or `GRIST_API_KEY` in env.")
+        sys.exit(1)
 
     feed(
         conf=conf,
