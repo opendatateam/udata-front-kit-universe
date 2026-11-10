@@ -30,7 +30,9 @@ class GristEntry[T: DatagouvObject]:
 
 
 class GristApi:
-    def __init__(self, base_url: str, token: str, table: str, filter: dict[str, Any] | None = None):
+    def __init__(
+        self, base_url: str, token: str, table: str, filter: dict[str, list[Any]] | None = None
+    ):
         self.base_url = base_url
         self.token = token
         self.table = table
@@ -62,7 +64,9 @@ class GristApi:
         action = record["Action"]
         category = sanitize_string(record.get("Categorie"))
         if not (identifier and type and action):
-            print(f"Warning: Invalid grist entry line {index}")
+            print(
+                f"Warning: Invalid grist entry: Identifiant={identifier}, Type={type}, Action={action}"
+            )
             return None
         return GristEntry(
             identifier=identifier,

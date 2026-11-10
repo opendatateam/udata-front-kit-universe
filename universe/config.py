@@ -18,7 +18,7 @@ class GristConfig:
     url: str
     token: str
     table: str
-    filter: dict[str, Any] | None = None
+    filter: dict[str, list[Any]] | None = None
 
 
 @dataclass
