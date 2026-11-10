@@ -1,0 +1,20 @@
+[
+  {
+    "id": "66601e784637c6bfa87b06ca",
+    "name": "Bureau de Recherches Géologiques et Minières",
+    "slug": "bureau-de-recherches-geologiques-et-minieres",
+    "type": null
+  },
+  {
+    "id": "5882a05d88ee3835c59b81a4",
+    "name": "DREAL Auvergne-Rhône-Alpes",
+    "slug": "dreal-auvergne-rhone-alpes-1",
+    "type": "DREAL, DRIEAT"
+  },
+  {
+    "id": "534fff8da3a7292c64a77eee",
+    "name": "Ministère de la Transition écologique",
+    "slug": "ministere-de-la-transition-ecologique",
+    "type": null
+  }
+]
