@@ -76,8 +76,9 @@ Pour configurer le script pour un univers :
      token: CONFIGURE_ME
    grist:
      url: https://grist.numerique.gouv.fr/o/{mon-compte-grist}/api/docs/{identifiant-du-document}
-     table: Demo  # ou Prod
      token: CONFIGURE_ME
+     table: Demo  # ou Prod
+     filter: {}   # optionnel, voir https://support.getgrist.com/api/#tag/records/operation/listRecords
    output_dir: dist/{site}-demo  # ou dist/{site}-prod
    ```
 
