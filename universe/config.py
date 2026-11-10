@@ -10,15 +10,15 @@ import yaml
 @dataclass
 class DatagouvConfig:
     url: str
-    token: str
+    token: str | None = None
 
 
 @dataclass
 class GristConfig:
     url: str
-    token: str
     table: str
     filter: dict[str, list[Any]] | None = None
+    token: str | None = None
 
 
 @dataclass

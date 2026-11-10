@@ -1,4 +1,5 @@
 import functools
+import sys
 import time
 import unicodedata
 
@@ -63,3 +64,9 @@ def uniquify[T](iterable: Iterable[T]) -> Sequence[T]:
 # noop unless args.verbose is set
 def verbose_print(*args, **kwargs):
     return None
+
+
+def error(msg: str, exit: bool = True):
+    print(f"Error: {msg}", file=sys.stderr)
+    if exit:
+        sys.exit(1)

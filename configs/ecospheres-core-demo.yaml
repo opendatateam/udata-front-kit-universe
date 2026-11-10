@@ -1,11 +1,8 @@
-# WARNING: overload tokens with envvars or a separate config file to avoid leaking secrets
 topic: 6ae213b1e966ea5b9b635010
 datagouv:
   url: https://demo.data.gouv.fr
-  token: CONFIGURE_ME
 grist:
   url: https://grist.numerique.gouv.fr/o/ecospheres/api/docs/5BC7vx8gyUF6Ff4dkkLo85
-  token: CONFIGURE_ME
   table: Demo
   filter: {"Coeur": [true]}
 output_dir: dist/ecospheres-core-demo

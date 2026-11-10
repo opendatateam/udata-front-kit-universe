@@ -1,7 +1,6 @@
 import datetime
 import json
 import os
-import sys
 import time
 
 from collections.abc import Iterable, Sequence
@@ -22,6 +21,7 @@ from universe.datagouv import (
 )
 from universe.grist import GristApi, GristEntry
 from universe.util import (
+    error,
     uniquify,
     verbose_print,  # noqa: F401
 )
@@ -107,9 +107,7 @@ def get_upcoming_universe_perimeter(
         if entry.object_class in (Dataset, Dataservice) and entry.object_class is object_class:
             obj = datagouv.get_object(entry.identifier, entry.object_class)
             if not obj:
-                print(
-                    f"Unknown {entry.object_class.model_name()} {entry.identifier}", file=sys.stderr
-                )
+                error(f"unknown {entry.object_class.model_name()} {entry.identifier}", exit=False)
                 continue
             if entry.exclude:
                 perimeter.exclude(obj)
@@ -119,9 +117,7 @@ def get_upcoming_universe_perimeter(
         elif entry.object_class is Organization:
             org = datagouv.get_organization(entry.identifier)
             if not org:
-                print(
-                    f"Unknown {entry.object_class.model_name()} {entry.identifier}", file=sys.stderr
-                )
+                error(f"unknown {entry.object_class.model_name()} {entry.identifier}", exit=False)
                 continue
             objs = datagouv.get_organization_objects(org.id, object_class)
             if entry.exclude:
@@ -177,7 +173,13 @@ def feed_universe(
     conf = Config.from_files(universe, *extra_configs)
 
     conf.datagouv.token = os.getenv("DATAGOUV_API_KEY", conf.datagouv.token)
+    if not conf.datagouv.token:
+        error(
+            "missing datagouv token. Set `datagouv.token` in config or `DATAGOUV_API_KEY` in env."
+        )
     conf.grist.token = os.getenv("GRIST_API_KEY", conf.grist.token)
+    if not conf.grist.token:
+        error("missing grist token. Set `grist.token` in config or `GRIST_API_KEY` in env.")
 
     feed(
         conf=conf,

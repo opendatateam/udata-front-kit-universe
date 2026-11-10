@@ -1,10 +1,7 @@
-# WARNING: overload tokens with envvars or a separate config file to avoid leaking secrets
 topic: univers-culture
 datagouv:
   url: https://www.data.gouv.fr
-  token: CONFIGURE_ME
 grist:
   url: https://grist.numerique.gouv.fr/o/culture-datagouv/api/docs/wF1qSdabBrfeiGVAMdm7xN
   table: Prod
-  token: CONFIGURE_ME
 output_dir: dist/culture-prod
