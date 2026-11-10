@@ -14,17 +14,17 @@ Outils permettant de gérer l'univers d'une [verticale data.gouv.fr](https://git
 
 Un univers correspond à un *topic* data.gouv.fr, qui va référencer tous les objects data.gouv.fr appartenant à une verticale donnée.
 
-Pour créer le topic univers de la verticale `{site}` sur data.gouv.fr :
+Pour créer le topic univers de la verticale `<site>` sur data.gouv.fr :
 
 ```
 curl -X POST \
-  https://{env}.data.gouv.fr/api/2/topics/ \
+  https://<env>.data.gouv.fr/api/2/topics/ \
   -H "Content-Type: application/json" \
-  -H "X-API-KEY: {mon-token-datagouv}" \
-  -d '{"name": "{mon-topic-univers}", "description": "Topic univers pour {site}.data.gouv.fr", "private": true, "tags": ["topic-univers"]}'
+  -H "X-API-KEY: <token-datagouv>" \
+  -d '{"name": "<topic-univers>", "description": "Topic univers pour <site>.data.gouv.fr", "private": true, "tags": ["<tag-univers>"]}'
 ```
 
-Sauf exception, le nom du topic univers doit suivre la convention `univers-{site}`.
+Sauf exception, le nom du topic univers doit suivre la convention `univers-<site>`.
 
 
 ### Configuration Grist
@@ -32,7 +32,7 @@ Sauf exception, le nom du topic univers doit suivre la convention `univers-{site
 La gestion d'un univers se fait par l'intérmédiaire d'un document Grist, dans lequel sont listés les éléments devant être inclus ou exclus dans la verticale cible, ceci pour chaque environnement data.gouv.fr actif.
 
 > [!WARNING]
-> Ne pas modifier les noms des tables et des champs du document Grist.
+> Ne pas modifier les noms des champs du document Grist.
 
 Pour définir un univers Grist :
 
@@ -59,25 +59,25 @@ Pour définir un univers Grist :
 
 ### Configuration du script
 
-La configuration du script de mise à jour est définie dans un fichier `configs/{site}-{env}.yaml`, correspondant à la verticale `site` de l'environnement data.gouv.fr `env`.
+La configuration du script de mise à jour est définie dans un fichier `configs/<site>-<env>.yaml`, correspondant à la verticale `<site>` de l'environnement data.gouv.fr `<env>`.
 
 > [!WARNING]
 > Ne pas mettre les clés d'API dans les fichiers versionnés sur GitHub !
 
 Pour configurer le script pour un univers :
 
-1. Créer un fichier de configuration `configs/{site}-{env}.yaml` sur le modèle suivant :
+1. Créer un fichier de configuration `configs/<site>-<env>.yaml` sur le modèle suivant :
 
    ```yaml
-   topic: {mon-topic-univers}
-   tag: {mon-tag-univers}
+   topic: <id-topic-univers>           # id ou slug datagouv
+   tag: <tag-univers>                  # optionnel
    datagouv:
-     url: https://demo.data.gouv.fr  # ou https://www.data.gouv.fr
+     url: https://<env>.data.gouv.fr   # env = "demo" (demo, preprod) ou "www" (prod)
    grist:
-     url: https://grist.numerique.gouv.fr/o/{mon-compte-grist}/api/docs/{identifiant-du-document}
-     table: Demo  # ou Prod
-     filter: {}   # optionnel, voir https://support.getgrist.com/api/#tag/records/operation/listRecords
-   output_dir: dist/{site}-demo  # ou dist/{site}-prod
+     url: https://grist.numerique.gouv.fr/o/<id-compte-grist>/api/docs/<id-document-grist>
+     table: <id-table-grist>
+     filter: {"Col": ["val"]}          # optionnel, voir https://support.getgrist.com/api/#tag/records/operation/listRecords
+   output_dir: dist/<site>-<env>       # env = "demo", "preprod" ou "prod"
    ```
 
 2. Configurez les clés d'API Grist et data.gouv.fr dans GitHub et/ou en local selon le mode d'exécution (voir ci-dessous).
@@ -88,15 +88,13 @@ Pour configurer le script pour un univers :
 L'exécution périodique du script de mise à jour est gérée par le workflow GitHub Actions [`update-universes`](https://github.com/opendatateam/udata-front-kit-universe/blob/main/.github/workflows/update-universes.yml), qui met quotidiennement à jour les univers configurés.
 
 > [!NOTE]
->  Si vous n'avez pas les droits, contactez un administrateur du dépôt pour réaliser les étapes 1 et 2.
+>  Si vous n'avez pas les droits, contactez un administrateur du dépôt pour réaliser les étapes ci-dessous.
 
 Pour ajouter une configuration d'univers au workflow :
 
-1. Créer un [environnement GitHub](https://github.com/opendatateam/udata-front-kit-universe/settings/environments) en suivant la convention `{site}-{env}`.
+1. Créer un [environnement GitHub](https://github.com/opendatateam/udata-front-kit-universe/settings/environments) en suivant la convention `<site>-<env>`.
 
-2. Configurer le secret `DATAGOUV_API_KEY` pour le nouvel environnement. Si Grist n'utilise pas le compte de service par défaut, configurer également le secret `GRIST_API_KEY`.
-
-3. Ajouter le nouvel environnement `{site}-{env}` à `jobs.run-update.strategy.matrix.universe` dans le [workflow](https://github.com/opendatateam/udata-front-kit-universe/blob/main/.github/workflows/update-universes.yml).
+2. Configurer le secret `DATAGOUV_API_KEY` pour le nouvel environnement. Si Grist n'utilise pas le compte de service par défaut, configurer également le secret `GRIST_API_KEY`. **Ne pas stocker ces clés dans le fichier de configuration versionné dans git.**
 
 
 ## Utilisation en local
@@ -127,9 +125,9 @@ Les fichiers de configuration versionnés ne devant pas contenir les clés d'API
 
   ```yaml
   datagouv:
-    token: {mon-token-datagouv}
+    token: <token-datagouv>
   grist:
-    token: {mon-token-grist}
+    token: <token-grist>
   ```
 
 
@@ -140,7 +138,7 @@ Les fichiers de configuration versionnés ne devant pas contenir les clés d'API
 Crée ou met à jour un univers à partir de sa définition Grist.
 
 ```shell
-uv run universe feed-universe [options] configs/{site}-{env}.yaml [config-overrides.yaml ...]
+uv run universe feed-universe [options] configs/<site>-<env>.yaml [config-overrides.yaml ...]
 ```
 
 Options :
@@ -149,7 +147,7 @@ Options :
 - `--reset` : Efface le contenu du topic avant de le re-synchroniser.
 - `--verbose` : Affichage détaillé lors de l'éxécution.
 
-En plus de la mise à jour de l'univers sur data.gouv.fr, le script génère plusieurs fichiers `dist/{site}-{env}/organizations-{type}.json` contenant les organisations data.gouv.fr qui référencent des objets appartenant à l'univers mis à jour. Ces fichiers peuvent être [utilisés comme API par `udata-front-kit`](https://github.com/opendatateam/udata-front-kit/blob/main/configs/ecospheres/config.yaml).
+En plus de la mise à jour de l'univers sur data.gouv.fr, le script génère plusieurs fichiers `dist/<site>-<env>/organizations-<type>.json` contenant les organisations data.gouv.fr qui référencent des objets appartenant à l'univers mis à jour. Ces fichiers peuvent être [utilisés comme API par `udata-front-kit`](https://github.com/opendatateam/udata-front-kit/blob/main/configs/ecospheres/config.yaml).
 
 
 #### Vérifier la synchronisation
@@ -157,5 +155,5 @@ En plus de la mise à jour de l'univers sur data.gouv.fr, le script génère plu
 Vérifie la synchronisation des organisations de l'univers entre l'index Elasticsearch et la base de données MongoDB de data.gouv.fr.
 
 ```shell
-uv run universe check-sync configs/{site}-{env}.yaml [config-overrides.yaml ...]
+uv run universe check-sync configs/<site>-<env>.yaml [config-overrides.yaml ...]
 ```
