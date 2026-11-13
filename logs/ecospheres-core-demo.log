@@ -1,5 +1,5 @@
 API for https://demo.data.gouv.fr ready.
-Starting at Thu Nov 12 14:00:08 2026.
+Starting at Fri Nov 13 13:26:41 2026.
 Processing universe topic '6ae213b1e966ea5b9b635010'.
 Found 3 entries in grist.
 Found 808 datasets matching the upcoming universe.
@@ -14,4 +14,4 @@ Updating topic:
 - Adding 0 dataservices...
 - Deleting 0 dataservices...
 Generating output file dist/ecospheres-core-demo/organizations-dataservices.json with 2 entries...
-Done at Thu Nov 12 14:00:13 2026 in 6 seconds.
+Done at Fri Nov 13 13:26:49 2026 in 7 seconds.
