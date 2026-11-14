@@ -1,8 +1,50 @@
 [
   {
+    "id": "66601e784637c6bfa87b06ca",
+    "name": "Bureau de Recherches Géologiques et Minières",
+    "slug": "bureau-de-recherches-geologiques-et-minieres",
+    "type": "EPIC"
+  },
+  {
+    "id": "61dc6a1398b3376b6fa0d0d9",
+    "name": "Centre Scientifique et Technique du Batiment",
+    "slug": "centre-scientifique-et-technique-du-batiment",
+    "type": "EPIC"
+  },
+  {
+    "id": "5c812a16634f416583ed1876",
+    "name": "Cerema",
+    "slug": "cerema",
+    "type": "EPA"
+  },
+  {
+    "id": "568e9657c751df5a92c664bc",
+    "name": "DREAL Pays de la Loire",
+    "slug": "dreal-pays-de-la-loire-direction-regionale-de-lenvironnement-de-lamenagement-et-du-logement-pays-de-la-loire",
+    "type": "DREAL, DRIEAT"
+  },
+  {
+    "id": "54f461f8c751df0f88882844",
+    "name": "Institut français de recherche pour l'exploitation de la mer (IFREMER)",
+    "slug": "institut-francais-de-recherche-pour-lexploitation-de-la-mer",
+    "type": "EPIC"
+  },
+  {
+    "id": "5be949a9634f415deb46af0e",
+    "name": "Lig'Air",
+    "slug": "ligair",
+    "type": "Association"
+  },
+  {
     "id": "534fff8da3a7292c64a77eee",
     "name": "Ministère de la Transition écologique",
     "slug": "ministere-de-la-transition-ecologique",
     "type": "Administration centrale"
+  },
+  {
+    "id": "534fffafa3a7292c64a78103",
+    "name": "Shom",
+    "slug": "shom",
+    "type": "EPA"
   }
 ]
