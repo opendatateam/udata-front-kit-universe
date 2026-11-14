@@ -27,7 +27,7 @@ from universe.util import (
 )
 
 
-ADDITIONS_BATCH_SIZE = 1000
+ADDITIONS_BATCH_SIZE = 200
 REMOVALS_THRESHOLD = 1800
 
 
