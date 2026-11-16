@@ -24,6 +24,24 @@
     "type": "DREAL, DRIEAT"
   },
   {
+    "id": "69020898521fbd7568b1dc26",
+    "name": "Ecobalyse",
+    "slug": "ecobalyse",
+    "type": "Administration centrale"
+  },
+  {
+    "id": "67884b4da4fca9c97bbef479",
+    "name": "Ecolab",
+    "slug": "ecolab-1",
+    "type": "Administration centrale"
+  },
+  {
+    "id": "673f49a6d1c056e10ac5f38b",
+    "name": "Hub’eau",
+    "slug": "hubeau",
+    "type": "Autre"
+  },
+  {
     "id": "54f461f8c751df0f88882844",
     "name": "Institut français de recherche pour l'exploitation de la mer (IFREMER)",
     "slug": "institut-francais-de-recherche-pour-lexploitation-de-la-mer",
