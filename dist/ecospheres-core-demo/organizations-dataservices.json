@@ -6,9 +6,57 @@
     "type": null
   },
   {
+    "id": "5c812a16634f416583ed1876",
+    "name": "Cerema",
+    "slug": "cerema",
+    "type": null
+  },
+  {
+    "id": "568e9657c751df5a92c664bc",
+    "name": "DREAL Pays de la Loire",
+    "slug": "dreal-pays-de-la-loire-direction-regionale-de-lenvironnement-de-lamenagement-et-du-logement-pays-de-la-loire",
+    "type": "DREAL, DRIEAT"
+  },
+  {
+    "id": "67884b4da4fca9c97bbef479",
+    "name": "Ecolab",
+    "slug": "ecolab-1",
+    "type": null
+  },
+  {
+    "id": "673f49a6d1c056e10ac5f38b",
+    "name": "Hub’eau",
+    "slug": "hubeau",
+    "type": null
+  },
+  {
+    "id": "54f461f8c751df0f88882844",
+    "name": "Institut français de recherche pour l'exploitation de la mer (IFREMER)",
+    "slug": "institut-francais-de-recherche-pour-lexploitation-de-la-mer",
+    "type": null
+  },
+  {
+    "id": "534fff80a3a7292c64a77e41",
+    "name": "Institut national de l'information géographique et forestière",
+    "slug": "institut-national-de-linformation-geographique-et-forestiere",
+    "type": null
+  },
+  {
+    "id": "5be949a9634f415deb46af0e",
+    "name": "Lig'Air",
+    "slug": "ligair",
+    "type": null
+  },
+  {
     "id": "534fff8da3a7292c64a77eee",
     "name": "Ministère de la Transition écologique",
     "slug": "ministere-de-la-transition-ecologique",
+    "type": null
+  },
+  {
+    "id": "534fffafa3a7292c64a78103",
+    "name": "Shom",
+    "slug": "shom",
     "type": null
   }
 ]
