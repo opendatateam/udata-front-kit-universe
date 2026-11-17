@@ -1,5 +1,5 @@
 API for https://www.data.gouv.fr ready.
-Starting at Mon Nov 16 13:58:11 2026.
+Starting at Tue Nov 17 14:54:17 2026.
 Processing universe topic 'univers-ministere-culture'.
 Warning: Invalid grist entry: Identifiant=None, Type=, Action=
 Warning: Invalid grist entry: Identifiant=None, Type=, Action=
@@ -16,4 +16,4 @@ Updating topic:
 - Adding 0 dataservices...
 - Deleting 0 dataservices...
 Generating output file dist/culture-ministere-prod/organizations-dataservices.json with 1 entries...
-Done at Mon Nov 16 13:58:15 2026 in 4 seconds.
+Done at Tue Nov 17 14:54:19 2026 in 2 seconds.
