@@ -1,26 +1,19 @@
 API for https://www.data.gouv.fr ready.
-Starting at Fri Nov 13 14:34:50 2026.
+Starting at Tue Nov 17 15:10:26 2026.
 Processing universe topic 'univers-ecospheres'.
-Found 283 entries in grist.
-Error: unknown Dataset 668d0a32a847603d391cbf0d
-Error: unknown Dataset 668d0a2fa847603d391cbf09
-Error: unknown Dataset 668d0a1aa847603d391cbeef
-Error: unknown Dataset 668d0a31a847603d391cbf0b
-Error: unknown Dataset 668d0a30a847603d391cbf0a
-Error: unknown Dataset 668d0a31a847603d391cbf0c
-Error: unknown Dataset 668d09cda847603d391cbe81
-Found 30269 datasets matching the upcoming universe.
-Found 30311 datasets currently in the universe.
+Found 276 entries in grist.
+Found 30333 datasets matching the upcoming universe.
+Found 30269 datasets currently in the universe.
 Updating topic:
-- Adding 22 datasets...
-- Deleting 64 datasets...
+- Adding 96 datasets...
+- Deleting 32 datasets...
 Generating output file dist/ecospheres-prod/organizations-datasets.json with 208 entries...
-Found 366 dataservices matching the upcoming universe.
+Found 367 dataservices matching the upcoming universe.
 Found 366 dataservices currently in the universe.
 Updating topic:
-- Adding 0 dataservices...
+- Adding 1 dataservices...
 - Deleting 0 dataservices...
 Generating output file dist/ecospheres-prod/organizations-dataservices.json with 32 entries...
-Found 21 bouquets with the universe tag.
-Generating output file dist/ecospheres-prod/organizations-bouquets.json with 18 entries...
-Done at Fri Nov 13 14:41:26 2026 in 396 seconds.
+Found 22 bouquets with the universe tag.
+Generating output file dist/ecospheres-prod/organizations-bouquets.json with 19 entries...
+Done at Tue Nov 17 15:18:34 2026 in 488 seconds.
