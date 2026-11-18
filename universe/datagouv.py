@@ -157,7 +157,7 @@ INACTIVE_OBJECT_MARKERS = [
     "extras{geop:dataset_id}",  # dataset
 ]
 
-DEFAULT_PAGE_SIZE = 1000
+DEFAULT_PAGE_SIZE = 200
 
 
 class DatagouvApi:
