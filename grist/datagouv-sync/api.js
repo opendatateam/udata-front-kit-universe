@@ -1,5 +1,11 @@
-const POOL_SIZE = 10;
+const POOL_SIZE = 5;
 const RESOLVABLE = ["dataservice", "dataset", "organization", "topic"];
+const MAX_RETRIES = 3;
+const MIN_REQUEST_INTERVAL_MS = 100; // paces requests regardless of POOL_SIZE, to stay under the server's rate limit
+const RATE_LIMIT_COOLDOWN_MS = 15000; // long enough that a retry can't land in the same rate-limit window as the 429 that caused it
+
+let nextRequestTime = 0;
+let cooldownUntil = 0;
 
 
 ready(() => {
@@ -70,36 +76,66 @@ async function resolve(env, row) {
   }
 
   const identifier = row.Identifiant.trim();
-  const object = `${type}s`
+  const object = `${type}s`;
   const version = type == "topic" ? "2" : "1";
+  const url = `https://${env}.data.gouv.fr/api/${version}/${object}/${identifier}/`;
 
-  let label = "<error>";
-  let url = "<error>";
+  let label, resultUrl;
   try {
-    const response = await fetch(
-      `https://${env}.data.gouv.fr/api/${version}/${object}/${identifier}/`,
-      {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-          "X-Fields": "name,page,self_web_url,title,uri"
-        }
-      }
-    );
+    const response = await fetchWithRetry(url);
     if (response.ok) {
       const result = await response.json();
-      // fields used here must be declared in the X-Fields request header above
+      // fields used here must be declared in the X-Fields request header in fetchWithRetry
       label = result.name || result.title || "<missing>";
-      url = result.page || result.self_web_url || result.uri || "<missing>";
+      resultUrl = result.page || result.self_web_url || result.uri || "<missing>";
     } else {
       console.warn(`DatagouvSync: Failed request for ${object}/${identifier}: ${response.statusText || response.status}`);
+      return;
     }
   } catch (err) {
     console.error(`DatagouvSync: Error processing ${object}/${identifier}:`, err);
+    return;
   }
 
-  console.log(`DatagouvSync: Result for ${object}/${identifier}: label="${label}", url=${url}`);
-  return {id: row.id, Label: label, URL: url};
+  console.log(`DatagouvSync: Result for ${object}/${identifier}: label="${label}", url=${resultUrl}`);
+  return {id: row.id, Label: label, URL: resultUrl};
+}
+
+
+async function fetchWithRetry(url) {
+  for (let attempt = 0; ; attempt++) {
+    await throttle();
+    const response = await fetch(url, {
+      method: "GET",
+      headers: {
+        "Content-Type": "application/json",
+        "X-Fields": "name,page,self_web_url,title,uri"
+      }
+    });
+    if (response.status !== 429 || attempt >= MAX_RETRIES) {
+      return response;
+    }
+
+    // Pause every request in the pool, not just this one, so our own retries
+    // can't pile up enough hits in a short window to get us banned.
+    cooldownUntil = Date.now() + RATE_LIMIT_COOLDOWN_MS;
+    console.warn(`DatagouvSync: Rate limited on ${url}, pausing all requests for ${RATE_LIMIT_COOLDOWN_MS}ms (attempt ${attempt + 1}/${MAX_RETRIES})`);
+  }
+}
+
+
+function sleep(ms) {
+  return new Promise(res => setTimeout(res, ms));
+}
+
+
+// Spaces out request starts across the whole pool, independent of POOL_SIZE,
+// so we don't dispatch requests faster than the server's rate limit allows.
+async function throttle() {
+  const now = Date.now();
+  const scheduled = Math.max(now, nextRequestTime, cooldownUntil);
+  nextRequestTime = scheduled + MIN_REQUEST_INTERVAL_MS;
+  if (scheduled > now) await sleep(scheduled - now);
 }
 
 
