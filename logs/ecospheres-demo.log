@@ -1,13 +1,29 @@
 API for https://demo.data.gouv.fr ready.
-Starting at Mon Nov 23 16:33:31 2026.
+Starting at Tue Nov 24 16:25:14 2026.
 Processing universe topic 'univers-ecospheres'.
 Found 179 entries in grist.
-Found 28789 datasets matching the upcoming universe.
-Found 28815 datasets currently in the universe.
+Found 28796 datasets matching the upcoming universe.
+Found 28789 datasets currently in the universe.
 Updating topic:
-- Adding 1 datasets...
-- Deleting 27 datasets...
+- Adding 11 datasets...
+- Deleting 4 datasets...
 Generating output file dist/ecospheres-demo/organizations-datasets.json with 171 entries...
+Error: unknown Organization 55896c18c751df5864a453b9
+Error: unknown Organization 534fff70a3a7292c64a77dc9
+Error: unknown Organization 55b0f23788ee3838d73ca289
+Error: unknown Organization 58837e7e88ee3804429b81a7
+Error: unknown Organization 558a7f99c751df760ba453bf
+Error: unknown Organization 558bd745c751df3fffa453bd
+Error: unknown Organization 558a83dac751df039da453b9
+Error: unknown Organization 58778ae0c751df7f29590451
+Error: unknown Organization 5809b72788ee38380e13e4c7
+Error: unknown Organization 558add63c751df7c4fa453c8
+Error: unknown Organization 558ea2d6c751df3646a453cf
+Error: unknown Organization 558ea37cc751df2a26a453fe
+Error: unknown Organization 56ec29b7c751df5240cc7140
+Error: unknown Organization 558ea45bc751df2d9aa4541d
+Error: unknown Organization 558ad3e3c751df7c4fa453b9
+Error: unknown Organization 558ad939c751df7c4fa453bc
 Found 358 dataservices matching the upcoming universe.
 Found 358 dataservices currently in the universe.
 Updating topic:
@@ -16,4 +32,4 @@ Updating topic:
 Generating output file dist/ecospheres-demo/organizations-dataservices.json with 25 entries...
 Found 21 bouquets with the universe tag.
 Generating output file dist/ecospheres-demo/organizations-bouquets.json with 18 entries...
-Done at Mon Nov 23 16:37:30 2026 in 239 seconds.
+Done at Tue Nov 24 16:29:56 2026 in 282 seconds.
