@@ -60,6 +60,12 @@
     "type": null
   },
   {
+    "id": "6adf7214f0a6b9f91244d329",
+    "name": "Observatoire National sur l'Adaptation à la Chaleur (ONA°C)",
+    "slug": "observatoire-national-sur-ladaptation-a-la-chaleur-onadegc",
+    "type": null
+  },
+  {
     "id": "6ab652b513d31829ed055406",
     "name": "PrevizO",
     "slug": "previzo",
