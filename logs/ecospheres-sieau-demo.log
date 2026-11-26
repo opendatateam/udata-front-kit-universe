@@ -1,5 +1,5 @@
 API for https://demo.data.gouv.fr ready.
-Starting at Wed Nov 25 16:10:44 2026.
+Starting at Thu Nov 26 15:51:23 2026.
 Processing universe topic 'univers-sieau'.
 Warning: Invalid grist entry: Identifiant=None, Type=, Action=inclure
 Found 5 entries in grist.
@@ -17,4 +17,4 @@ Updating topic:
 - Adding 0 dataservices...
 - Deleting 0 dataservices...
 Generating output file dist/ecospheres-sieau-demo/organizations-dataservices.json with 1 entries...
-Done at Wed Nov 25 16:10:47 2026 in 3 seconds.
+Done at Thu Nov 26 15:51:26 2026 in 3 seconds.
