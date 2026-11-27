@@ -1,5 +1,5 @@
 API for https://demo.data.gouv.fr ready.
-Starting at Thu Nov 26 15:51:39 2026.
+Starting at Fri Nov 27 15:40:39 2026.
 Processing universe topic 'univers-simm'.
 Found 2 entries in grist.
 Found 561 datasets matching the upcoming universe.
@@ -14,4 +14,4 @@ Updating topic:
 - Adding 0 dataservices...
 - Deleting 0 dataservices...
 Generating output file dist/ecospheres-simm-demo/organizations-dataservices.json with 2 entries...
-Done at Thu Nov 26 15:51:45 2026 in 6 seconds.
+Done at Fri Nov 27 15:40:45 2026 in 6 seconds.
