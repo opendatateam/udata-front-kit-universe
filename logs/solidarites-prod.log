@@ -1,5 +1,5 @@
 API for https://www.data.gouv.fr ready.
-Starting at Thu Nov 26 16:04:17 2026.
+Starting at Fri Nov 27 15:50:53 2026.
 Processing universe topic 'univers-solidarites'.
 Found 154 entries in grist.
 Found 399 datasets matching the upcoming universe.
@@ -14,4 +14,4 @@ Updating topic:
 - Adding 0 dataservices...
 - Deleting 0 dataservices...
 Generating output file dist/solidarites-prod/organizations-dataservices.json with 2 entries...
-Done at Thu Nov 26 16:04:48 2026 in 30 seconds.
+Done at Fri Nov 27 15:51:23 2026 in 30 seconds.
